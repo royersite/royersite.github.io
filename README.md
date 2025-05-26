@@ -1,6 +1,6 @@
 # 🌐 Mi Sitio Web - @RoyeR
 
-![Banner del sitio](assets/images/banner-1200x628-violeta.png)
+![Banner del sitio](assets/images/card-1200x628-violeta.png)
 
 Este es solo un hobby. No tiene un propósito más allá de ser un espacio personal con un diseño **simple y minimalista**.
 
