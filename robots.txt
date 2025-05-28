@@ -1,5 +1,4 @@
 User-agent: *
-Allow: / 
+Disallow:
 
 Sitemap: https://royersite.github.io/sitemap.xml
-Sitemap: https://royersite.github.io/sitemap_new.txt
