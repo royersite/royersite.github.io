@@ -77,12 +77,12 @@
 
 @keyframes expandDivider {
     0% {
-        width: 0;
         opacity: 1;
+        transform: scaleX(0);
     }
     100% {
-        width: 100%;
         opacity: 1;
+        transform: scaleX(0);
     }
 }
 
@@ -210,11 +210,12 @@ header {
 }
 
 .divider {
+    width: calc(100% - 2.5rem);
     height: 0.6998px;
-    margin: 0 1.125rem;
     background-color: var(--blanco-opacity);
     opacity: 0;
-    will-change: width;
+    transform: scaleX(0);
+    transform-origin: center;
     animation: expandDivider var(--divider-duracion) ease-out var(--divider-delay) 1 forwards;
 }
 
@@ -440,7 +441,7 @@ footer {
         font-size: 0.675rem;
     }
     .divider {
-        max-width: 80%;
+        max-width: calc(80% - 2.5rem);
     }
     .main-content {
         max-width: 80%;
@@ -475,7 +476,7 @@ footer {
         font-size: 0.71875rem;
     }
     .divider {
-        max-width: 80%;
+        max-width: calc(80% - 2.5rem);
     }
     .main-content {
         max-width: 80%;
@@ -510,7 +511,7 @@ footer {
         font-size: 0.75rem;
     }
     .divider {
-        max-width: 82%;
+        max-width: calc(82% - 2.5rem);
     }
     .main-content {
         max-width: 82%;
@@ -545,7 +546,7 @@ footer {
         font-size: 0.78125rem;
     }
     .divider {
-        max-width: 82%;
+        max-width: calc(82% - 2.5rem);
     }
     .main-content {
         max-width: 82%;
@@ -580,7 +581,7 @@ footer {
         font-size: 0.8125rem;
     }
     .divider{
-        max-width: 82%;
+        max-width: calc(82% - 2.5rem);
     }
     .main-content {
         max-width: 82%;
@@ -617,7 +618,7 @@ footer {
         font-size: 0.875rem;
     }
     .divider {
-        max-width: 85%;
+        max-width: calc(85% - 2.5rem);
     }
     .main-content {
         max-width: 85%;
@@ -652,7 +653,7 @@ footer {
         font-size: 0.9375rem;
     }
     .divider {
-        max-width: 80%;
+        max-width: calc(80% - 2.5rem);
     }
     .main-content {
         max-width: 80%;
@@ -687,7 +688,7 @@ footer {
         font-size: 1rem;
     }
     .divider {
-        max-width: 75%;
+        max-width: calc(75% - 2.5rem);
     }
     .main-content {
         max-width: 75%;
@@ -722,7 +723,7 @@ footer {
         font-size: 1.0625rem;
     }
     .divider {
-        max-width: 70%;
+        max-width: calc(70% - 2.5rem);
     }
     .main-content {
         max-width: 70%;
@@ -759,7 +760,7 @@ footer {
         font-size: 0.84375rem;
     }
     .divider {
-        max-width: 85%;
+        max-width: calc(85% - 2.5rem);
     }
     .main-content {
         max-width: 85%;
@@ -793,7 +794,7 @@ footer {
         font-size: 0.875rem;
     }
     .divider {
-        max-width: 80%;
+        max-width: calc(80% - 2.5rem);
     }
     .main-content {
         max-width: 80%;
@@ -827,7 +828,7 @@ footer {
         font-size: 0.90625rem;
     }
     .divider {
-        max-width: 75%;
+        max-width: calc(75% - 2.5rem);
     }
     .main-content {
         max-width: 75%;
@@ -861,7 +862,7 @@ footer {
         font-size: 0.95rem;
     }
     .divider {
-        max-width: 70%;
+        max-width: calc(70% - 2.5rem);
     }
     .main-content {
         max-width: 70%;
@@ -895,7 +896,7 @@ footer {
         font-size: 1rem;
     }
     .divider {
-        max-width: 70%;
+        max-width: calc(70% - 2.5rem);
     }
     .main-content {
         max-width: 70%;
