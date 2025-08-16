@@ -133,7 +133,7 @@ body {
     overflow-y: auto;
     width: 100%;
     min-height: 100dvh;
-    color: var(--blanco-secundario);
+    color: transparent;
     font-family: var(--font-400);
     font-size: 1rem;
     background-color: var(--negro-primario);
@@ -185,7 +185,8 @@ header {
 
 .header-content a {
     display: inline-block;
-    padding: 0.21875rem 0.5625rem 0.1875rem 0.5625rem;
+    /*padding: 0.21875rem 0.5625rem 0.1875rem 0.5625rem;*/
+    padding: 5.5px 12px 5px 12px;
     font-family: var(--font-400);
     font-size: 0.8125rem;
     letter-spacing: 0.01875em;
