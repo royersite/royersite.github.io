@@ -59,7 +59,7 @@ setInterval(() => {
 const year = new Date().getFullYear();
 document.getElementById("copyright").textContent = year;
 
-
+/*
 //  X app & web
 document.querySelector('.social-profile-link').addEventListener('click', function(e) {
     e.preventDefault();
@@ -82,6 +82,33 @@ document.querySelector('.social-profile-link').addEventListener('click', functio
             window.open(webURL, '_blank');
         }
     }, isIOS ? 500 : 100); //  Ajuste para diferentes sistemas operativos
+});*/
+
+document.querySelector('.social-profile-link').addEventListener('click', function(e) {
+    e.preventDefault();
+    const screenName = this.dataset.screenname;
+    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+
+    // Modificado: URL de la app de Instagram en lugar de Twitter
+    const appURL = `instagram://user?username=${screenName}`; // ← CAMBIO
+
+    // Modificado: URL web de Instagram en lugar de href de Twitter
+    const webURL = `https://www.instagram.com/${screenName}/`; // ← CAMBIO
+
+    // Intentar abrir la aplicación
+    const appLaunchTime = Date.now();
+    const iframe = document.createElement('iframe');
+    iframe.style.display = 'none';
+    iframe.src = appURL;
+    document.body.appendChild(iframe);
+
+    // Manejar el fallback con temporizador mejorado
+    setTimeout(() => {
+        document.body.removeChild(iframe);
+        if (Date.now() - appLaunchTime < (isIOS ? 2000 : 1000)) {
+            window.open(webURL, '_blank');
+        }
+    }, isIOS ? 500 : 100);
 });
 
 
