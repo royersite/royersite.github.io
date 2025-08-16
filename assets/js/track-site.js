@@ -1,4 +1,7 @@
-// FUNCIONES DE ENVÍO
+/* CONFIGURACIÓN (OCULTA) */
+const NETLIFY_ENDPOINT = '/.netlify/functions/send-message';
+
+/* FUNCIÓN PARA ENVIAR MENSAJE A DISCORD */
 function sendDiscordMsg(mensaje) {
     fetch(NETLIFY_ENDPOINT, {
         method: 'POST',
@@ -7,20 +10,20 @@ function sendDiscordMsg(mensaje) {
     }).catch(() => {});
 }
 
-// CLIC EN BODY (ID único neutro)
-const bodyTrack = document.getElementById('track-body-site');
-bodyTrack.addEventListener('click', (e) => {
-    const target = e.target;
-    // Evitar contar clics sobre el enlace
-    if (!target.closest('#track-link-site')) {
+/* SEGUIMIENTO DE BODY */
+const bodyTrack = document.querySelector('.track-body');
+if (bodyTrack) {
+    bodyTrack.addEventListener('click', () => {
         sendDiscordMsg('Un usuario **tocó el body** en royersite.github.io');
-    }
-});
+    });
+}
 
-// CLIC EN EL ENLACE (ID único neutro)
-const linkTrack = document.getElementById('track-link-site');
-linkTrack.addEventListener('click', (e) => {
-    e.preventDefault();
-    sendDiscordMsg('Un usuario tocó el enlace **@RoyeR** en royersite.github.io');
-    window.open(e.currentTarget.href, '_blank');
-});
+/* SEGUIMIENTO DE ENLACE */
+const linkTrack = document.querySelector('.track-link');
+if (linkTrack) {
+    linkTrack.addEventListener('click', (e) => {
+        e.preventDefault(); // opcional, si quieres abrir el link normal, puedes eliminar esta línea
+        sendDiscordMsg('Un usuario tocó el enlace **@RoyeR** en royersite.github.io');
+        window.open(linkTrack.href, '_blank');
+    });
+}
