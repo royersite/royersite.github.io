@@ -88,10 +88,12 @@
 
 @keyframes textSentense {
     0% {
+        visibility: visible;
         opacity: 0;
         transform: translateX(100%);
     }
     100% {
+        visibility: visible;
         opacity: 1;
         transform: translateX(0);
     }
@@ -240,6 +242,7 @@ main {
 }
 
 .sentence-part {
+    visibility: hidden;
     width: 100%;
     color: var(--blanco-primario);
     font-family: var(--font-600);
