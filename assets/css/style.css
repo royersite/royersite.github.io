@@ -16,9 +16,9 @@
 }
 
 @font-face {
-    font-family: 'Grotesk Semibold';
-    src: url('../fonts/Grotesk-Semibold.woff2') format('woff2');
-    font-weight: 600;
+    font-family: 'Aileron Black';
+    src: url('../fonts/Aileron-Black.woff2') format('woff2');
+    font-weight: 900;
     font-style: normal;
     font-display: swap;
 }
@@ -32,7 +32,7 @@
 :root {
     --font-400: 'FTPolar Regular', -apple-system, sans-serif;
     --font-500: 'FTPolar Medium', -apple-system, sans-serif;
-    --font-600: 'Grotesk Semibold', -apple-system, sans-serif;
+    --font-600: 'Aileron Black', -apple-system, sans-serif;
     --blanco-primario: #fffffe;
     --blanco-secundario: #fafafb;
     --blanco-opacity: rgba(255, 255, 255, 0.58);
@@ -248,7 +248,7 @@ main {
     color: var(--blanco-primario);
     font-family: var(--font-600);
     font-size: 2.375rem;
-    font-weight: 600;
+    font-weight: ;
     font-feature-settings: 'salt' 1;
     line-height: 1;
     /*letter-spacing: -0.028125em;*/
