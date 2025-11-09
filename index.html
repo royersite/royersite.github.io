@@ -39,7 +39,7 @@
             // Crear un <style> dinámicamente sin bloquear la carga
             const style = document.createElement("style");
             style.textContent = `
-                body { background-color: ${colorAleatorio}; }
+                #bodyBg { background-color: ${colorAleatorio}; }
                 #link { color: ${colorAleatorio}; }
                 #loaderBg { background-color: ${colorAleatorio}; }
             `;
@@ -98,9 +98,9 @@
         <script src="assets/js/script.js" defer></script>
         <script src="assets/js/track-site.js" defer></script>
     </head>
-    <body>
+    <body id="bodyBg">
         <div class="loaderScreen" id="loaderBg">
-            <span translate="no" style="display: inline-block; font-size: 40px; letter-spacing: 40px; font-family: var(--font-500), sans-serif; animation: tracking 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) forwards; animation-delay: 0.2s; white-space: nowrap;">RoyeR</span>
+            <span translate="no" style="display: inline-block; font-size: 40px; letter-spacing: 40px; font-family: var(--font-500); animation: letterSpan 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) forwards; animation-delay: 0.2s; white-space: nowrap;">RoyeR</span>
         </div>
         <header>
             <div class="header-content">
