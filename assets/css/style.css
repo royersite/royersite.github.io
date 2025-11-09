@@ -38,9 +38,9 @@
     --blanco-opacity: rgba(255, 255, 255, 0.58);
     --negro-primario: #1d1d1f;
     --hf-duracion: 1400ms;
-    --hf-delay: 700ms;
+    --hf-delay: 2900ms;
     --divider-duracion: 1900ms;
-    --divider-delay: 6300ms;
+    --divider-delay: 8500ms;
 }
 
 @keyframes letterSpan {
@@ -274,31 +274,31 @@ main {
 }
 
 .sentence-part:nth-of-type(1) {
-    animation-delay: 2100ms;
+    animation-delay: 4300ms;
 }
 
 .sentence-part:nth-of-type(2) {
-    animation-delay: 2600ms;
+    animation-delay: 4800ms;
 }
 
 .sentence-part:nth-of-type(3) {
-    animation-delay: 3100ms;
+    animation-delay: 5300ms;
 }
 
 .sentence-part:nth-of-type(4) {
-    animation-delay: 3600ms;
+    animation-delay: 5800ms;
 }
 
 .sentence-part:nth-of-type(5) {
-    animation-delay: 4100ms;
+    animation-delay: 6300ms;
 }
 
 .sentence-part:nth-of-type(6) {
-    animation-delay: 4600ms;
+    animation-delay: 6800ms;
 }
 
 .sentence-part:nth-of-type(7) {
-    animation-delay: 5100ms;
+    animation-delay: 7300ms;
 }
 
 .tagline {
