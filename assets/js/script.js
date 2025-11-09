@@ -173,5 +173,5 @@ document.addEventListener("DOMContentLoaded", function() {
             //  Cada ciclo dura 4000ms: 2000ms visible, 1000ms fade-out y 1000ms fade-in
             setInterval(cycleText, 7000); // 4000
         }, 5000); // 2000 2s
-    }, 6700);
+    }, 8900);
 });
