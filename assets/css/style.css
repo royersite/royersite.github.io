@@ -43,6 +43,21 @@
     --divider-delay: 6300ms;
 }
 
+@keyframes letterSpan {
+    0% {
+        transform: translateZ(400px) scaleX(2);
+        opacity: 0;
+            }
+    40% {
+        opacity: 0.6;
+    }
+    100% {
+        letter-spacing: 0;
+        transform: translateZ(0) scaleX(1);
+        opacity: 1;
+    }
+}
+
 @keyframes animateHeader {
     0% {
         opacity: 0;
