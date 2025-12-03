@@ -257,7 +257,7 @@ header {
 }
 
 
-.header-content a {
+.header-content .ttta {
     display: inline-block;
     /*padding: 0.21875rem 0.5625rem 0.1875rem 0.5625rem;*/
     padding: 0.40625rem 0.75rem 0.375rem 0.75rem;
@@ -273,8 +273,10 @@ header {
     touch-action: manipulation;
 }
 
-.header-content a:hover,
-.header-content a:focus {
+.header-link:hover,
+.header-link:focus,
+.header-account:hover,
+.header-account:focus {
     transform: scale(0.95);
 }
 
