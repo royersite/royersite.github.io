@@ -198,6 +198,19 @@ header {
     opacity: 0;
 }
 
+.header-links {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    gap: 12px;
+}
+
+.header-link {
+    flex-grow: 0;   
+    flex-shrink: 0; 
+}
+
 .header-content a {
     display: inline-block;
     /*padding: 0.21875rem 0.5625rem 0.1875rem 0.5625rem;*/
