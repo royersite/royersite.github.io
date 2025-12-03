@@ -203,7 +203,7 @@ header {
     align-items: center;
     justify-content: flex-end;
     flex-wrap: nowrap;
-    gap: 12px;
+    gap: 0.6875rem;
 }
 
 .header-link {
@@ -214,7 +214,7 @@ header {
     flex-shrink: 0;
     width: 30px;
     height: 30px;
-    padding: 5px;
+    padding: 0.3125rem;
     border-radius: 50%;
     text-decoration: none;
     background-color: var(--blanco-secundario);
@@ -233,8 +233,8 @@ header {
     width: auto;
     max-width: 100%;
     height: 30px;
-    padding: 5px 10px;
-    border-radius: 80px;
+    padding: 0.3125rem 0.625rem;
+    border-radius: 5rem;
     text-decoration: none;
     background-color: var(--blanco-secundario);
     will-change: transform;
@@ -248,30 +248,19 @@ header {
     width: auto;
     height: auto;
 }
+
 .header-span {
-    padding: 0;
     font-family: var(--font-400);
     font-size: 0.8125rem;
     letter-spacing: 0.01875em;
     white-space: nowrap;
 }
 
-
-.header-content .ttta {
-    display: inline-block;
+/*
+.header-content a {
     /*padding: 0.21875rem 0.5625rem 0.1875rem 0.5625rem;*/
     padding: 0.40625rem 0.75rem 0.375rem 0.75rem;
-    font-family: var(--font-400);
-    font-size: 0.8125rem;
-    letter-spacing: 0.01875em;
-    text-decoration: none;
-    background-color: var(--blanco-secundario);
-    border-radius: 1.5rem;
-    will-change: transform;
-    transition: transform 300ms ease;
-    cursor: pointer;
-    touch-action: manipulation;
-}
+}*/
 
 .header-link:hover,
 .header-link:focus,
@@ -335,31 +324,31 @@ main {
 }
 
 .sentence-part:nth-of-type(1) {
-    animation-delay: 3300ms;
+    animation-delay: 3200ms;
 }
 
 .sentence-part:nth-of-type(2) {
-    animation-delay: 3800ms;
+    animation-delay: 3600ms;
 }
 
 .sentence-part:nth-of-type(3) {
-    animation-delay: 4300ms;
+    animation-delay: 4000ms;
 }
 
 .sentence-part:nth-of-type(4) {
-    animation-delay: 4800ms;
+    animation-delay: 4400ms;
 }
 
 .sentence-part:nth-of-type(5) {
-    animation-delay: 5300ms;
+    animation-delay: 4800ms;
 }
 
 .sentence-part:nth-of-type(6) {
-    animation-delay: 5800ms;
+    animation-delay: 5200ms;
 }
 
 .sentence-part:nth-of-type(7) {
-    animation-delay: 6300ms;
+    animation-delay: 5600ms;
 }
 
 .tagline {
