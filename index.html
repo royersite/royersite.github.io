@@ -160,5 +160,22 @@
                 }, { once: true });
             });
         </script>
+
+        <script>
+  // Selecciona todos los enlaces con clase .header-link
+  const headerLinks = document.querySelectorAll('.header-link');
+
+  headerLinks.forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault(); // evita que el enlace navegue
+
+      // Mostrar alerta tipo popup
+      alert('Próximamente');
+    });
+  });
+</script>
+
+
+
     </body>
 </html>
