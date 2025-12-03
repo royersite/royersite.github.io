@@ -22,8 +22,8 @@
         <link rel="preload" href="assets/fonts/Aileron-Black.woff2" as="font" type="font/woff2" crossorigin="anonymous">
         <link rel="preload" href="assets/fonts/Grotesk-Semibold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
         <!--  Estilos  -->
-        <link rel="preload" href="assets/css/style.css?v=1.2.0" as="style" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="assets/css/style.css?v=1.2.0"></noscript>
+        <link rel="preload" href="assets/css/style.css?v=1.2.1" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="assets/css/style.css?v=1.2.1"></noscript>
         <!--  Script inline crítico  -->
         <script>
             const colores = ["#E60834", "#F3571A", "#FFA500", "#8BD428", "#38D878", "#8A2BE2", "#6A45EE", "#4A5DF9"];
@@ -39,9 +39,10 @@
             // Crear un <style> dinámicamente sin bloquear la carga
             const style = document.createElement("style");
             style.textContent = `
-                #bodyBg { background-color: ${colorAleatorio}; }
-                #link { color: ${colorAleatorio}; }
                 #loaderBg { background-color: ${colorAleatorio}; }
+                #bodyBg { background-color: ${colorAleatorio}; }
+                #linkColor { color: ${colorAleatorio}; }
+                #iconColor { stroke: ${colorAleatorio}; }
             `;
             document.head.appendChild(style);
         </script>
@@ -105,7 +106,7 @@
             <div class="header-content">
                 <h2 class="saludo" aria-label="Saludos"></h2>
                 <!--<a id="link" class="animate-link social-profile-link" href="https://x.com/royernomas" target="_blank" rel="noopener noreferrer" aria-label="Perfil de RoyeR" data-screenname="royernomas" translate="no">@RoyeR</a>-->
-                <a id="link" class="animate-link social-profile-link" href="https://www.instagram.com/bioniiic/" target="_blank" rel="noopener noreferrer" aria-label="Perfil de Instagram de RoyeR" data-screenname="bioniiic" translate="no">@RoyeR</a>
+                <a id="linkColor" class="animate-link social-profile-link" href="https://www.instagram.com/bioniiic/" target="_blank" rel="noopener noreferrer" aria-label="Perfil de Instagram de RoyeR" data-screenname="bioniiic" translate="no">@RoyeR</a>
             </div>
         </header>
         <div class="section-divider">
