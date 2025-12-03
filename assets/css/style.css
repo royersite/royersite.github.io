@@ -207,8 +207,13 @@ header {
 }
 
 .header-link {
-    flex-grow: 0;   
-    flex-shrink: 0; 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 30px;
+    padding: 5px;
 }
 
 .header-content a {
