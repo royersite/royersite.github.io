@@ -253,7 +253,7 @@ header {
     font-family: var(--font-400);
     font-size: 0.8125rem;
     letter-spacing: 0.01875em;
-    background-color: var(--blanco-secundario);
+    white-space: nowrap;
 }
 
 
