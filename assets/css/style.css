@@ -180,6 +180,7 @@ header {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
+    gap: 0.625rem;
     width: 100%;
     max-width: 100%;
     padding: 0.313rem 1.125rem;
