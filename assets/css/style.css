@@ -181,6 +181,7 @@ header {
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    max-width: 100%;
     padding: 0.313rem 1.125rem;
     opacity: 0;
     will-change: transform, opacity;
@@ -196,7 +197,7 @@ header {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 100%;
+    min-width: 0;
     transition: opacity 800ms ease-in-out;
 }
 
@@ -311,6 +312,7 @@ main {
     gap: 0.0125rem;
     overflow: hidden;
     width: 100%;
+    max-width: 100%;
     padding: 0.313rem 1.5rem 0.313rem 1.125rem;
 }
 
@@ -388,6 +390,7 @@ footer {
     justify-content: center;
     gap: 0.313rem;
     width: 100%;
+    max-width: 100%;
     padding: 0.625rem;
     opacity: 0;
     will-change: transform, opacity;
