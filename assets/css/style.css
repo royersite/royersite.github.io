@@ -193,6 +193,10 @@ header {
     color: var(--blanco-secundario);
     font-family: var(--font-500);
     font-size: 1.0625rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
     transition: opacity 800ms ease-in-out;
 }
 
