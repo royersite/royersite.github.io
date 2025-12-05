@@ -124,23 +124,23 @@ document.addEventListener("DOMContentLoaded", function() {
         "Amo il rispetto",              // Italiano
         "Ik hou van respect",           // Neerlandés
         "Kocham szacunek",              // Polaco
-        "Aku cinta hormat",             // Indonesio
+        "Aku mencintai rasa hormat",    // Indonesio
         "Saygıyı seviyorum",            // Turco
         "Estimo el respecte",           // Catalán
-        "Îmi place respectul",          // Rumano
+        "Iubesc respectul",             // Rumano
         "Szeretem a tiszteletet",       // Húngaro
         "Jeg elsker respekt",           // Danés
         "Rakastan kunnioitusta",        // Finés
         "Jag älskar respekt",           // Sueco
         "Ég elska virðingu",            // Islandés
-        "Me az karantez",               // Bretón
+        "Me az kar an doujañs",         // Bretón
         "Volim poštovanje",             // Croata
-        "Gústame o respeto",            // Gallego
-        "Loodan lugupidamist",          // Estonio
-        "Ech heikel respect",           // Luxemburgués
-        "Taim i' ngra respect",         // Irlandés
-        "Niretzat errespetua maite",    // Vasco
-        //"Che ahayhu respeto",            Guaraní
+        "Amo o respecto",               // Gallego
+        "Ma armastan austust",          // Estonio
+        "Ech hunn Respekt gär",         // Luxemburgués
+        "Is breá liom an meas",         // Irlandés
+        "Maite dut errespetua",         // Vasco
+        //"...",                           Guaraní
         "I love respect",               // Inglés
         "Amo el respeto"                // Español
     ];
