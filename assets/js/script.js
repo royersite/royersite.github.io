@@ -111,70 +111,6 @@ document.querySelector('.social-profile-link').addEventListener('click', functio
     }, isIOS ? 500 : 100);
 });
 
-/*
-//  traducciones del tagline 
-document.addEventListener("DOMContentLoaded", function() {
-    var tagline = document.querySelector('.tagline');
-    // Lista de traducciones de "Amo el respeto" en 18 idiomas:
-    var translations = [
-        "Mi amas respekton",            // Esperanto
-        "J'aime le respect",            // Francés
-        "Ich liebe Respekt",            // Alemán
-        "Eu amo o respeito",            // Portugués
-        "Amo il rispetto",              // Italiano
-        "Ik hou van respect",           // Neerlandés
-        "Kocham szacunek",              // Polaco
-        "Aku mencintai rasa hormat",    // Indonesio
-        "Saygıyı seviyorum",            // Turco
-        "Estimo el respecte",           // Catalán
-        "Iubesc respectul",             // Rumano
-        "Szeretem a tiszteletet",       // Húngaro
-        "Jeg elsker respekt",           // Danés
-        "Rakastan kunnioitusta",        // Finés
-        "Jag älskar respekt",           // Sueco
-        "Ég elska virðingu",            // Islandés
-        "Me az kar an doujañs",         // Bretón
-        "Volim poštovanje",             // Croata
-        "Amo o respecto",               // Gallego
-        "Ma armastan austust",          // Estonio
-        "Ech hunn Respekt gär",         // Luxemburgués
-        "Is breá liom an meas",         // Irlandés
-        "Maite dut errespetua",         // Vasco
-        //"...",                           Guaraní
-        "I love respect",               // Inglés
-        "Amo el respeto"                // Español
-    ];
-    var index = 0;
-    
-    //  Función para cambiar de idioma con transición suave
-    function cycleText() {
-        // Desvanecer el texto actual en 1000ms
-        tagline.style.transition = "opacity 1000ms";
-        tagline.style.opacity = 0;
-        setTimeout(function() {
-            //  Actualizar el texto al siguiente idioma
-            index = (index + 1) % translations.length;
-            tagline.textContent = translations[index];
-            //  Volver a mostrar el texto con una transición de 1000ms
-            tagline.style.transition = "opacity 1000ms";
-            tagline.style.opacity = 1;
-        }, 1000);
-    }
-    
-    //  Esperar 6700ms para iniciar la animación
-    setTimeout(function() {
-        //  Asignar el primer texto
-        tagline.textContent = translations[index];
-        //  Transición inicial de 1800ms para aparecer
-        tagline.style.transition = "opacity 1800ms";
-        tagline.style.opacity = 1;
-        //  Una vez aparecido, esperar 2000ms y comenzar el ciclo de cambio
-        setTimeout(function() {
-            //  Cada ciclo dura 4000ms: 2000ms visible, 1000ms fade-out y 1000ms fade-in
-            setInterval(cycleText, 7000); // 4000
-        }, 5000); // 2000 2s
-    }, 8900);
-});*/
 
 // Traducción del tagline
 document.addEventListener("DOMContentLoaded", function() {
@@ -211,7 +147,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let index = 0;
 
     // AQUÍ CAMBIAS LOS TIEMPOS
-    let TIEMPO_PRIMER_IDIOMA_VISIBLE = 4000;  // cuánto tiempo está el primer texto antes de empezar a rotar (4000 = 4 segundos)
+    let TIEMPO_PRIMER_IDIOMA_VISIBLE = 7000;  // cuánto tiempo está el primer texto antes de empezar a rotar (4000 = 4 segundos)
     let DURACION_TRANSICION          = 1000;  // duración del fade-out y del fade-in (1000 = 1 segundo)
     let TIEMPO_CADA_IDIOMA_VISIBLE   = 4000;  // cuánto tiempo está CADA idioma 100 % visible y legible (después del primero)
 
