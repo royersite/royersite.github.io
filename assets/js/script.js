@@ -83,7 +83,7 @@ document.querySelector('.social-profile-link').addEventListener('click', functio
         }
     }, isIOS ? 500 : 100); //  Ajuste para diferentes sistemas operativos
 });*/
-
+// Instagram app & web
 document.querySelector('.social-profile-link').addEventListener('click', function(e) {
     e.preventDefault();
     const screenName = this.dataset.screenname;
@@ -111,7 +111,7 @@ document.querySelector('.social-profile-link').addEventListener('click', functio
     }, isIOS ? 500 : 100);
 });
 
-
+/*
 //  traducciones del tagline 
 document.addEventListener("DOMContentLoaded", function() {
     var tagline = document.querySelector('.tagline');
@@ -174,4 +174,73 @@ document.addEventListener("DOMContentLoaded", function() {
             setInterval(cycleText, 7000); // 4000
         }, 5000); // 2000 2s
     }, 8900);
+});*/
+
+// Traducción del tagline
+document.addEventListener("DOMContentLoaded", function() {
+    const tagline = document.querySelector('.tagline');
+
+    const translations = [
+        "── Mi amas respekton ──",            // Esperanto
+        "── J'aime le respect ──",            // Francés
+        "── Ich liebe Respekt ──",            // Alemán
+        "── Eu amo o respeito ──",            // Portugués
+        "── Amo il rispetto ──",              // Italiano
+        "── Ik hou van respect ──",           // Neerlandés
+        "── Kocham szacunek ──",              // Polaco
+        "── Aku mencintai rasa hormat ──",    // Indonesio
+        "── Saygıyı seviyorum ──",            // Turco
+        "── Estimo el respecte ──",           // Catalán
+        "── Iubesc respectul ──",             // Rumano
+        "── Szeretem a tiszteletet ──",       // Húngaro
+        "── Jeg elsker respekt ──",           // Danés
+        "── Rakastan kunnioitusta ──",        // Finés
+        "── Jag älskar respekt ──",           // Sueco
+        "── Ég elska virðingu ──",            // Islandés
+        "── Me az kar an doujañs ──",         // Bretón
+        "── Volim poštovanje ──",             // Croata
+        "── Amo o respecto ──",               // Gallego
+        "── Ma armastan austust ──",          // Estonio
+        "── Ech hunn Respekt gär ──",         // Luxemburgués
+        "── Is breá liom an meas ──",         // Irlandés
+        "── Maite dut errespetua ──",         // Vasco
+        "── I love respect ──",               // Inglés
+        "── Amo el respeto ──"                // Español
+    ];
+
+    let index = 0;
+
+    // AQUÍ CAMBIAS LOS TIEMPOS
+    let TIEMPO_PRIMER_IDIOMA_VISIBLE = 4000;  // cuánto tiempo está el primer texto antes de empezar a rotar (4000 = 4 segundos)
+    let DURACION_TRANSICION          = 1000;  // duración del fade-out y del fade-in (1000 = 1 segundo)
+    let TIEMPO_CADA_IDIOMA_VISIBLE   = 4000;  // cuánto tiempo está CADA idioma 100 % visible y legible (después del primero)
+
+    // Primer idioma → aparece al instante y totalmente visible
+    tagline.textContent = translations[0];
+    tagline.style.opacity = 1;
+    index = 1;
+
+    // Función que cambia al siguiente idioma con fade suave
+    function cycleText() {
+        // Fade-out
+        tagline.style.transition = `opacity ${DURACION_TRANSICION}ms`;
+        tagline.style.opacity = 0;
+
+        setTimeout(() => {
+            // Cambiar texto cuando está invisible
+            tagline.textContent = translations[index];
+            index = (index + 1) % translations.length;
+
+            // Fade-in
+            tagline.style.transition = `opacity ${DURACION_TRANSICION}ms`;
+            tagline.style.opacity = 1;
+        }, DURACION_TRANSICION);
+    }
+
+    // Después del tiempo inicial → empezamos la rotación infinita
+    setTimeout(() => {
+        cycleText(); // primer cambio
+        setInterval(cycleText, DURACION_TRANSICION + DURACION_TRANSICION + TIEMPO_CADA_IDIOMA_VISIBLE);
+        //                     ↑ fade-out      ↑ fade-in            ↑ tiempo visible
+    }, TIEMPO_PRIMER_IDIOMA_VISIBLE);
 });
