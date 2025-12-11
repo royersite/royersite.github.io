@@ -362,14 +362,14 @@ main {
 }
 
 .tagline {
-    position: absolute;
+    /*position: absolute;
     right: 0.313rem;
     display: inline-block;
     color: var(--blanco-opacity);
     font-family: var(--font-400);
     font-size: 0.8125rem;
     text-align: center;
-    writing-mode: sideways-lr;
+    writing-mode: sideways-lr;*/
     opacity: 0;
     will-change: opacity;
     transition: opacity 1800ms ease-in-out;
