@@ -1119,7 +1119,7 @@ function getNextIndex() {
 function protectWords(text) {
     return text.replace(
         /\[\[(.*?)\]\]/g,
-        '<span translate="no">$1</span>' // Puedo agregar class a este para darle estilos
+        '<span translate="no" style="display:inline; white-space:inherit;">$1</span>' // Puedo agregar class a este para darle estilos
     );
 }
 
