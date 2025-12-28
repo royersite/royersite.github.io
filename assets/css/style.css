@@ -338,6 +338,9 @@ main {
     transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
 
     border: 1px solid lime;
+
+    flex: 1 1 0;
+    min-width: 0;
 }
 
 .sentence-part.visible {
