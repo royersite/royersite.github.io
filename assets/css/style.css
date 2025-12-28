@@ -298,6 +298,8 @@ main {
     overflow: hidden;
     width: 100%;
     max-width: 100%;
+
+    border: 1px solid red;
 }
 
 .main-content {
@@ -315,6 +317,8 @@ main {
     padding: 0.313rem 1.5rem;
     scroll-snap-type: y mandatory;
     -webkit-overflow-scrolling: touch;
+
+    border: 1px solid green;
 }
 
 .sentence-part {
@@ -334,6 +338,8 @@ main {
     will-change: opacity, transform;
     transform: translateY(10px);
     transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+
+    border: 1px solid lime;
 }
 
 .sentence-part.visible {
