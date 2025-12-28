@@ -103,12 +103,10 @@
 
 @keyframes textSentense {
     0% {
-        visibility: visible;
         opacity: 0;
         transform: translateX(100%);
     }
     100% {
-        visibility: visible;
         opacity: 1;
         transform: translateX(0);
     }
@@ -330,31 +328,31 @@ main {
 }
 
 .sentence-part:nth-of-type(1) {
-    animation-delay: 3200ms;
+    animation-delay: 3000ms;
 }
 
 .sentence-part:nth-of-type(2) {
-    animation-delay: 3600ms;
+    animation-delay: 3400ms;
 }
 
 .sentence-part:nth-of-type(3) {
-    animation-delay: 4000ms;
+    animation-delay: 3800ms;
 }
 
 .sentence-part:nth-of-type(4) {
-    animation-delay: 4400ms;
+    animation-delay: 4200ms;
 }
 
 .sentence-part:nth-of-type(5) {
-    animation-delay: 4800ms;
+    animation-delay: 4600ms;
 }
 
 .sentence-part:nth-of-type(6) {
-    animation-delay: 5200ms;
+    animation-delay: 5000ms;
 }
 
 .sentence-part:nth-of-type(7) {
-    animation-delay: 5600ms;
+    animation-delay: 5400ms;
 }
 
 footer {
