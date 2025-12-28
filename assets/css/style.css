@@ -130,6 +130,7 @@
 }
 
 html {
+    overflow: hidden;
     font-size: 16px;
     -webkit-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
@@ -144,8 +145,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow-x: hidden;
-    overflow-y: auto;
+    overflow: hidden;
     width: 100%;
     min-height: 100vh;
     min-height: 100dvh;
@@ -294,33 +294,41 @@ main {
     flex: 1;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
     width: 100%;
     max-width: 100%;
 }
 
 .main-content {
     position: relative;
+    overflow-y: auto;
     display: flex;
+    flex: 1;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     gap: 0.0125rem;
-    overflow: hidden;
     width: 100%;
     max-width: 100%;
-    padding: 0.313rem 1.5rem 0.313rem 1.125rem;
+    padding: 0.313rem 1.5rem;
+    scroll-snap-type: y mandatory;
+    -webkit-overflow-scrolling: touch;
 }
 
 .sentence-part {
     width: 100%;
+    min-height: 100%;
     color: var(--blanco-primario);
     font-family: var(--font-600);
     font-size: 2.375rem;
     font-weight: ;
     font-feature-settings: 'salt' 1;
     line-height: 1;
+    white-space: pre-line;
     /*letter-spacing: -0.028125em;*/
     opacity: 0;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
     will-change: opacity, transform;
     transform: translateY(10px);
     transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
