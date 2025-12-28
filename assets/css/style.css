@@ -318,14 +318,13 @@ main {
 
 .sentence-part {
     display: flex;
-    flex-direction: column;
     align-items: center;
     width: 100%;
     min-height: 100%;
     color: var(--blanco-primario);
     font-family: var(--font-600);
     font-size: 2.375rem;
-    font-size: 26px;
+    font-size: 34px;
     font-weight: ;
     font-feature-settings: 'salt' 1;
     line-height: 1;
