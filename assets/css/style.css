@@ -416,7 +416,7 @@ footer {
     user-select: none;
 }
 
-/*  MÓVIL - VERTICAL  */
+/*  MÓVIL - VERTICAL  
 @media (min-width: 375px) and (max-width: 389px) {
     html {
         font-size: 16.5px;
@@ -513,7 +513,7 @@ footer {
     }
 }
 
-/*  MÓVIL - HORIZONTAL  */
+/*  MÓVIL - HORIZONTAL  
 @media (min-width: 500px) and (max-width: 779px) and (orientation: landscape) {
     header {
         height: 2.5rem;
@@ -690,7 +690,7 @@ footer {
     }
 }
 
-/*  TABLET - VERTICAL  */
+/*  TABLET - VERTICAL  
 @media (min-width: 600px) and (max-width: 744px) and (orientation: portrait) {
     header {
         height: 3.25rem;
@@ -832,7 +832,7 @@ footer {
     }
 }
 
-/*  TABLET - HORIZONTAL  */
+/*  TABLET - HORIZONTAL  
 @media (min-width: 950px) and (max-width: 1023px) and (orientation: landscape) {
     header {
         height: 3.25rem;
