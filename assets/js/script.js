@@ -6,11 +6,11 @@ function actualizarSaludo() {
     const horaActual = new Date().getHours();
     let saludo;
 
-    if (horaActual < 6) {
+    if (horaActual < 5) {
         saludo = 'Buenas madrugadas';
     } else if (horaActual < 12) {
         saludo = 'Buenos días';
-    } else if (horaActual < 19) {
+    } else if (horaActual < 20) {
         saludo = 'Buenas tardes';
     } else {
         saludo = 'Buenas noches';
@@ -82,7 +82,7 @@ document.querySelector('.social-profile-link').addEventListener('click', functio
             window.open(webURL, '_blank');
         }
     }, isIOS ? 500 : 100); //  Ajuste para diferentes sistemas operativos
-});*/
+});*//*
 // Instagram app & web
 document.querySelector('.social-profile-link').addEventListener('click', function(e) {
     e.preventDefault();
@@ -109,9 +109,76 @@ document.querySelector('.social-profile-link').addEventListener('click', functio
             window.open(webURL, '_blank');
         }
     }, isIOS ? 500 : 100);
+});*/
+
+
+// Bloque adicional: rellenar <a> según JSON antes de hacer click
+fetch('assets/json/redes.json')
+    .then(res => res.json())
+    .then(data => {
+        const link = document.querySelector('.social-profile-link');
+
+        // Determinar la red activa
+        let activeNetwork = null;
+        if (data.instagram.active) activeNetwork = { name: "Instagram", username: data.instagram.username };
+        else if (data.x.active) activeNetwork = { name: "X", username: data.x.username };
+
+        if (!activeNetwork) return;
+
+        // Rellenar href, data-screenname y aria-label
+        link.dataset.screenname = activeNetwork.username;
+        link.setAttribute('aria-label', `Perfil de ${activeNetwork.name} de RoyeR`);
+
+        if (activeNetwork.name === "Instagram") {
+            link.href = `https://www.instagram.com/${activeNetwork.username}/`;
+        } else {
+            link.href = `https://x.com/${activeNetwork.username}`;
+        }
+    })
+    .catch(err => console.error('Error cargando JSON de redes', err));
+
+
+// Listener para Instagram: app & web
+document.querySelector('.social-profile-link').addEventListener('click', function(e) {
+    e.preventDefault();
+    const screenName = this.dataset.screenname;
+    const ariaLabel = this.getAttribute('aria-label');
+
+    // Si es Instagram
+    if (ariaLabel.includes('Instagram')) {
+        const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+        const appURL = `instagram://user?username=${screenName}`;
+        const webURL = `https://www.instagram.com/${screenName}/`;
+        const iframe = document.createElement('iframe');
+        iframe.style.display = 'none';
+        iframe.src = appURL;
+        document.body.appendChild(iframe);
+        const start = Date.now();
+        setTimeout(() => {
+            document.body.removeChild(iframe);
+            if (Date.now() - start < (isIOS ? 2000 : 1000)) {
+                window.open(webURL, '_blank');
+            }
+        }, isIOS ? 500 : 100);
+    }
+    // Si es X
+    else if (ariaLabel.includes('X')) {
+        const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+        const appURL = `twitter://user?screen_name=${screenName}`;
+        const webURL = this.href;
+        const iframe = document.createElement('iframe');
+        iframe.style.display = 'none';
+        iframe.src = appURL;
+        document.body.appendChild(iframe);
+        const start = Date.now();
+        setTimeout(() => {
+            document.body.removeChild(iframe);
+            if (Date.now() - start < (isIOS ? 2000 : 1000)) {
+                window.open(webURL, '_blank');
+            }
+        }, isIOS ? 500 : 100);
+    }
 });
-
-
 // Traducción del tagline
 document.addEventListener("DOMContentLoaded", function() {
     const tagline = document.querySelector('.tagline');
