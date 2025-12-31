@@ -1,3 +1,7 @@
+/*
+    💻 Úsalo sabiamente ¡no rompas nada!
+    👋 Si estás leyendo esto, RoyeR te saluda.
+*/
 //  Saludo dinámico <h2>
 let saludoAnterior = '';
 
@@ -58,58 +62,6 @@ setInterval(() => {
 //  Copyright automático
 const year = new Date().getFullYear();
 document.getElementById("copyright").textContent = year;
-
-/*
-//  X app & web
-document.querySelector('.social-profile-link').addEventListener('click', function(e) {
-    e.preventDefault();
-    const screenName = this.dataset.screenname;
-    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-    const appURL = `twitter://user?screen_name=${screenName}`;
-    const webURL = this.href;
-
-    //  Intentar abrir la aplicación
-    const appLaunchTime = Date.now();
-    const iframe = document.createElement('iframe');
-    iframe.style.display = 'none';
-    iframe.src = appURL;
-    document.body.appendChild(iframe);
-
-    //  Manejar el fallback con temporizador mejorado
-    setTimeout(() => {
-        document.body.removeChild(iframe);
-        if (Date.now() - appLaunchTime < (isIOS ? 2000 : 1000)) {
-            window.open(webURL, '_blank');
-        }
-    }, isIOS ? 500 : 100); //  Ajuste para diferentes sistemas operativos
-});*//*
-// Instagram app & web
-document.querySelector('.social-profile-link').addEventListener('click', function(e) {
-    e.preventDefault();
-    const screenName = this.dataset.screenname;
-    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-
-    // Modificado: URL de la app de Instagram en lugar de Twitter
-    const appURL = `instagram://user?username=${screenName}`; // ← CAMBIO
-
-    // Modificado: URL web de Instagram en lugar de href de Twitter
-    const webURL = `https://www.instagram.com/${screenName}/`; // ← CAMBIO
-
-    // Intentar abrir la aplicación
-    const appLaunchTime = Date.now();
-    const iframe = document.createElement('iframe');
-    iframe.style.display = 'none';
-    iframe.src = appURL;
-    document.body.appendChild(iframe);
-
-    // Manejar el fallback con temporizador mejorado
-    setTimeout(() => {
-        document.body.removeChild(iframe);
-        if (Date.now() - appLaunchTime < (isIOS ? 2000 : 1000)) {
-            window.open(webURL, '_blank');
-        }
-    }, isIOS ? 500 : 100);
-});*/
 
 
 // Bloque adicional: rellenar <a> según JSON antes de hacer click
@@ -179,6 +131,7 @@ document.querySelector('.social-profile-link').addEventListener('click', functio
         }, isIOS ? 500 : 100);
     }
 });
+
 // Traducción del tagline
 document.addEventListener("DOMContentLoaded", function() {
     const tagline = document.querySelector('.tagline');
