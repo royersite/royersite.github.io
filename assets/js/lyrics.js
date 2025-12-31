@@ -1,7 +1,7 @@
 const frases = [
     // Visiones
     `En el mundo pelearán por ser número uno  
-    A ninguno de ellos le importa la gente  
+    A ninguno de ellos les importa la gente  
     Como jugando a los vaqueros en Puente Llaguno  
     Unos cuantos pistoleros matarán inocentes`,
     
