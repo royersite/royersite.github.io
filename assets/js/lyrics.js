@@ -114,7 +114,7 @@ const frases = [
     Pelea contra ti  
     Tu mayor enemy`,
     
-    `Ponte de pie contra los entes que no les conviene  
+    `¡Ponte de pie! Contra los entes que no les conviene  
     Que tú pienses diferente a los demás`,
     
     `El mundo está mal, mucho más mal de lo que crees  
