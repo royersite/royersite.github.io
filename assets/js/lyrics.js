@@ -130,7 +130,7 @@ const frases = [
     Mientras la religión sigue destruyendo a su paso  
     El intelecto con su plan perfecto pa' torcernos los brazos`,
     
-    `Abre los ojos y ve que la cosa está fea  
+    `Abra los ojos y vea que la cosa está fea  
     En la pista droga y sexo dominan al mundo  
     Como un futbolista a su balón  
     Cuando ensaya su truco en el callejón  
