@@ -153,7 +153,7 @@ const frases = [
     Y una casa cuesta al menos el precio de cien carros`,
     
     `Soy de un país con miles de leyes sin aplicar  
-    Con sesenta muertos semanales, solo en la capital  
+    Con sesenta muertos semanal, solo en la capital  
     Por ende, muy pocas cosas me sorprenden`,
     
     `He visto policías matando gente inocente  
