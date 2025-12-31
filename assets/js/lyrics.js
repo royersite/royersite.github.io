@@ -136,10 +136,10 @@ const frases = [
     Cuando ensaya su truco en el callejón  
     Donde nacen los sueños que se van como agua en colador`,
     
-    `Rimar no es don  
-    Como si lo es con corazón, rimar me tendrán que matar  
-    Pa' que no escriba más pasajes  
-    Aunque habrás matado al mensajero, pero no al mensaje`,
+    `Hace falta valor, y no lo digo por rimar  
+    Porque rimar no es don, como sí lo es con corazón rimar  
+    Me tendrán que matar pa' que no escriba más pasajes  
+    Aunque habrán matado al mensajero, pero no al mensaje`,
     
     `Un día más, un día menos en el barrio  
     Un día más, un día menos en el mundo cruel  
