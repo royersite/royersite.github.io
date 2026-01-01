@@ -8,7 +8,7 @@ const h2 = document.getElementById('eventos');
 
 function actualizarSaludo() {
     const hoy = new Date();
-    const fechaHoy = `\( {String(hoy.getMonth() + 1).padStart(2, '0')}- \){String(hoy.getDate()).padStart(2, '0')}`;
+    const fechaHoy = `${String(hoy.getMonth() + 1).padStart(2, '0')}-${String(hoy.getDate()).padStart(2, '0')}`;
     const horaActual = hoy.getHours();
 
     fetch('assets/json/eventos.json')
