@@ -11,13 +11,13 @@ function actualizarSaludo() {
     let saludo;
 
     if (horaActual < 5) {
-        saludo = 'Buenas madrugadas';
+        saludo = 'Feliz Año Nuevo';
     } else if (horaActual < 12) {
-        saludo = 'Buenos días';
+        saludo = 'Feliz Año Nuevo';
     } else if (horaActual < 20) {
-        saludo = 'Buenas tardes';
+        saludo = 'Feliz Año Nuevo';
     } else {
-        saludo = 'Buenas noches';
+        saludo = 'Feliz Año Nuevo';
     }
 
     //  Solo actualiza el saludo si es diferente al anterior
