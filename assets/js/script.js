@@ -2,38 +2,66 @@
     💻 Úsalo sabiamente ¡no rompas nada!
     👋 Si estás leyendo esto, RoyeR te saluda.
 */
-//  Saludo dinámico <h2>
+//  Saludo dinámico <h2> eventos
 let saludoAnterior = '';
+const h2 = document.getElementById('eventos');
 
 function actualizarSaludo() {
-    const h2 = document.querySelector('.header-content h2');
-    const horaActual = new Date().getHours();
-    let saludo;
+    const hoy = new Date();
+    const fechaHoy = `\( {String(hoy.getMonth() + 1).padStart(2, '0')}- \){String(hoy.getDate()).padStart(2, '0')}`;
+    const horaActual = hoy.getHours();
 
-    if (horaActual < 5) {
-        saludo = 'Feliz Año Nuevo';
-    } else if (horaActual < 12) {
-        saludo = 'Feliz Año Nuevo';
-    } else if (horaActual < 20) {
-        saludo = 'Feliz Año Nuevo';
-    } else {
-        saludo = 'Feliz Año Nuevo';
-    }
+    fetch('assets/json/eventos.json')
+        .then(res => res.json())
+        .then(data => {
+            let mensaje = '';
 
-    //  Solo actualiza el saludo si es diferente al anterior
-    if (saludo !== saludoAnterior) {
-        h2.classList.add('fade-out');
+            // Revisar si hay evento hoy
+            if (Array.isArray(data.eventos)) {
+                const eventoHoy = data.eventos.find(ev => {
+                    return fechaHoy >= ev.fecha_inicio && fechaHoy <= ev.fecha_fin;
+                });
+                if (eventoHoy) {
+                    mensaje = eventoHoy.mensaje;
+                }
+            }
 
-        setTimeout(() => {
-            h2.textContent = saludo;
-            h2.classList.remove('fade-out');
-            saludoAnterior = saludo;
-        }, 600); // Desaparece y luego aparece con el nuevo texto
-    }
+            // Si no hay evento → saludo por hora
+            if (!mensaje) {
+                if (horaActual < 5) mensaje = 'Buenas madrugadas';
+                else if (horaActual < 12) mensaje = 'Buenos días';
+                else if (horaActual < 20) mensaje = 'Buenas tardes';
+                else mensaje = 'Buenas noches';
+            }
+
+            // Solo actualiza si cambió el mensaje
+            if (mensaje !== saludoAnterior) {
+                h2.classList.add('fade-out');
+                setTimeout(() => {
+                    h2.textContent = mensaje;
+                    h2.classList.remove('fade-out');
+                    saludoAnterior = mensaje;
+                }, 600);
+            }
+        })
+        .catch(() => {
+            // fallback en caso de error
+            const fallback = 'Hola ._.';
+            if (fallback !== saludoAnterior) {
+                h2.classList.add('fade-out');
+                setTimeout(() => {
+                    h2.textContent = fallback;
+                    h2.classList.remove('fade-out');
+                    saludoAnterior = fallback;
+                }, 600);
+            }
+        });
 }
 
-//  Ejecutar la función de saludo al cargar la página & luego cada 58 segundos
+// Ejecutar al cargar
 actualizarSaludo();
+
+// Repetir cada 58 segundos
 setInterval(actualizarSaludo, 58000);
 
 
@@ -65,7 +93,7 @@ document.getElementById("copyright").textContent = year;
 
 
 // Bloque adicional: rellenar <a> según JSON antes de hacer click
-fetch('assets/json/redes.json')
+fetch('assets/json/eventos.json')
     .then(res => res.json())
     .then(data => {
         const link = document.querySelector('.social-profile-link');
