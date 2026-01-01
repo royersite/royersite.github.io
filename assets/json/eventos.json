@@ -24,18 +24,18 @@
             "mensaje": "¡Feliz Primavera!"
         },
         {
-            "fecha_inicio": "06-21",
-            "fecha_fin": "06-21",
+            "fecha_inicio": "12-21",
+            "fecha_fin": "12-21",
             "mensaje": "¡Feliz Verano!"
         },
         {
-            "fecha_inicio": "09-21",
-            "fecha_fin": "09-21",
+            "fecha_inicio": "03-21",
+            "fecha_fin": "03-21",
             "mensaje": "¡Feliz Otoño!"
         },
         {
-            "fecha_inicio": "12-21",
-            "fecha_fin": "12-21",
+            "fecha_inicio": "06-21",
+            "fecha_fin": "06-21",
             "mensaje": "¡Feliz Invierno!"
         }
     ]
