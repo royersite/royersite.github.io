@@ -1,213 +1,212 @@
 const frases = [
     // Visiones
-    `En el mundo pelearán por ser número uno  
-    A ninguno de ellos les importa la gente  
-    Como jugando a los vaqueros en Puente Llaguno  
+    `En el mundo pelearán por ser número uno
+    A ninguno de ellos les importa la gente
+    Como jugando a los vaqueros en Puente Llaguno
     Unos cuantos pistoleros matarán inocentes`,
     
-    `Se caerán las dos torres del país más poderoso  
-    Terroristas colosos secuestrarán aviones  
-    Sus misiones son matar aunque el precio sea costoso  
+    `Se caerán las dos torres del país más poderoso
+    Terroristas colosos secuestrarán aviones
+    Sus misiones son matar aunque el precio sea costoso
     Yo, pero no te impresiones, que solo son visiones`,
     
-    `Llegará un nuevo virus para acabar con el mundo  
-    Y en menos de un segundo millones tendrán sida  
-    Perderán la vida, tan despacio como rotundo  
+    `Llegará un nuevo virus para acabar con el mundo
+    Y en menos de un segundo millones tendrán sida
+    Perderán la vida, tan despacio como rotundo
     Porque la vacuna tal vez nunca sea conseguida`,
     
-    `Toda la juventud se va a perder en la moda  
-    Bien sea usar drogas o saber usar pistolas  
-    Creen que tienen bolas y terminarán como todas  
+    `Toda la juventud se va a perder en la moda
+    Bien sea usar drogas o saber usar pistolas
+    Creen que tienen bolas y terminarán como todas
     Las personas que quieren cagar arriba 'e la cola`,
     
-    `La ignorancia se va a apoderar de las escuelas  
-    Solo habrá mujerzuelas, se perderán valores  
-    Modificarán nuestra bandera y su emblema  
+    `La ignorancia se va a apoderar de las escuelas
+    Solo habrá mujerzuelas, se perderán valores
+    Modificarán nuestra bandera y su emblema
     Yo, pero no te impresiones, que solo son visiones`,
     
-    `Crearán teléfonos que podrás llevar contigo  
-    Bastante creativo, la primera impresión  
-    Pero será otra nueva adicción para tus sentidos  
+    `Crearán teléfonos que podrás llevar contigo
+    Bastante creativo, la primera impresión
+    Pero será otra nueva adicción para tus sentidos
     Además del internet y de la televisión`,
     
-    `Aumentará el número de seres homosexuales  
-    Infidelidades, ya no existirán verdades  
-    Sexo con animales, aberraciones sexuales  
+    `Aumentará el número de seres homosexuales
+    Infidelidades, ya no existirán verdades
+    Sexo con animales, aberraciones sexuales
     Traerán todo tipo de extrañas enfermedades`,
     
-    `Más de setenta mil muertes violentas habrá por año  
+    `Más de setenta mil muertes violentas habrá por año
     No es extraño que el odio habite en los corazones`,
-    
     // Quisiera
-    `Quisiera volver a nacer  
-    Ser más niño otra vez  
-    No preocuparme por el mal  
-    Que estoy por conocer  
-    Para no ver a mis familiares fallecer  
-    Y no entender a un mundo  
+    `Quisiera volver a nacer
+    Ser más niño otra vez
+    No preocuparme por el mal
+    Que estoy por conocer
+    Para no ver a mis familiares fallecer
+    Y no entender a un mundo
     Cruel con sed de poder`,
     
-    `Solo jugar, reír sin pensar en sobrevivir  
+    `Solo jugar, reír sin pensar en sobrevivir
     Inocente del mundo vil, solo ser feliz`,
     
-    `Quisiera ir al pasado y ver rectificados  
+    `Quisiera ir al pasado y ver rectificados
     Errores cometidos que hoy en día me cuestan caro`,
     
-    `Quisiera ir al futuro y verme  
-    Cuando sea un anciano  
-    Regresar al presente consciente y  
+    `Quisiera ir al futuro y verme
+    Cuando sea un anciano
+    Regresar al presente consciente y
     Corregir lo malo`,
     
-    `Quisiera ser el tiempo y  
-    Pararme si estoy contento  
+    `Quisiera ser el tiempo y
+    Pararme si estoy contento
     Pasear en alegrías, correr en sufrimientos`,
     
-    `Quisiera ser la verdad y asesinar la mentira  
-    Tener la voluntad de no llorar si siento ira  
+    `Quisiera ser la verdad y asesinar la mentira
+    Tener la voluntad de no llorar si siento ira
     Quisiera que las traiciones no causen heridas`,
     
-    `Quisiera ser el viento y  
-    Llevarme palabras necias  
-    Ser el buen pensamiento en la  
+    `Quisiera ser el viento y
+    Llevarme palabras necias
+    Ser el buen pensamiento en la
     Conciencia del que piensa`,
-    
     // Hace falta soñar
-    `Mil preguntas me invadieron sin respuestas (la más simple fue)  
+    `Mil preguntas me invadieron sin respuestas (la más simple fue)
     Si hay un justo Dios, ¿por qué esto ha de pasar?`,
     
-    `Pensar que un avión de guerra cuesta más que construir una escuela  
-    Donde pudieron formar niños de esta era  
+    `Pensar que un avión de guerra cuesta más que construir una escuela
+    Donde pudieron formar niños de esta era
     Que hoy en día son delincuentes o mujerzuelas`,
     
-    `Las anticonceptivas están prohibidas  
-    Por una iglesia que no aprecia el número de muertes por el sida  
-    Cuya cura no ha podido ser conseguida  
+    `Las anticonceptivas están prohibidas
+    Por una iglesia que no aprecia el número de muertes por el sida
+    Cuya cura no ha podido ser conseguida
     Aunque la prioridad es encontrar en el espacio vida`,
     // Un Día en el Barrio
-    `El planeta está mal y muchos ya lo dieron por perdido  
-    Que en algunos años seremos nueve billones ya  
+    `El planeta está mal y muchos ya lo dieron por perdido
+    Que en algunos años seremos nueve billones ya
     De los cuales tres o más no tendrán un hogar jamás`,
     
-    `Incluso hasta la educación de hoy en día  
-    Está basada en repetí' alguna vil filosofía  
-    Estudiar importa, sí, pero pa' abrir tu mentecilla  
+    `Incluso hasta la educación de hoy en día
+    Está basada en repetí' alguna vil filosofía
+    Estudiar importa, sí, pero pa' abrir tu mentecilla
     Qué cerrada no funciona, tal cual como una sombrilla`,
     
-    `Después fue de las manos, hay bombas bajo donde estamos  
-    Que no han estallado porque alguna mano no ha deseado  
-    Es un chiste confiar que existe un gobernante honrado  
+    `Después fue de las manos, hay bombas bajo donde estamos
+    Que no han estallado porque alguna mano no ha deseado
+    Es un chiste confiar que existe un gobernante honrado
     El poder puede corromper a cualquier ser humano`,
     
-    `El hombre por instinto busca el beneficio propio, guerra eterna  
+    `El hombre por instinto busca el beneficio propio, guerra eterna
     Hoy por petróleo, como antes por opio, observa`,
     
-    `El estado hace las leyes, pero bien francos  
+    `El estado hace las leyes, pero bien francos
     Pasan barcos con toneladas de drogas de los narcos`,
     
-    `Como la tele los maneja como quiere  
-    Y en lugar de fichas juegan ajedrez  
+    `Como la tele los maneja como quiere
+    Y en lugar de fichas juegan ajedrez
     Pero con seres, puede`,
     
-    `Debes decidir  
-    Si al rebaño seguir  
-    O pensar diferente  
-    Pelea contra ti  
+    `Debes decidir
+    Si al rebaño seguir
+    O pensar diferente
+    Pelea contra ti
     Tu mayor enemy`,
     
-    `¡Ponte de pie! Contra los entes que no les conviene  
+    `¡Ponte de pie! Contra los entes que no les conviene
     Que tú pienses diferente a los demás`,
     
-    `El mundo está mal, mucho más mal de lo que crees  
-    No puedes confiar ni siquiera en los diarios que lees  
+    `El mundo está mal, mucho más mal de lo que crees
+    No puedes confiar ni siquiera en los diarios que lees
     Todo está preparado y previamente pagado y comprado`,
     
-    `Ya nadie se ama  
-    El mundo está mal, el racismo vive  
+    `Ya nadie se ama
+    El mundo está mal, el racismo vive
     Me atrevo a pensar que es casi igual que antes inclusive`,
     
-    `Trabajo escaso, países sumidos en el fracaso  
-    Y Estados Unidos derramando el vaso  
-    Mientras la religión sigue destruyendo a su paso  
+    `Trabajo escaso, países sumidos en el fracaso
+    Y Estados Unidos derramando el vaso
+    Mientras la religión sigue destruyendo a su paso
     El intelecto con su plan perfecto pa' torcernos los brazos`,
     
-    `Abra los ojos y vea que la cosa está fea  
-    En la pista droga y sexo dominan al mundo  
-    Como un futbolista a su balón  
-    Cuando ensaya su truco en el callejón  
+    `Abra los ojos y vea que la cosa está fea
+    En la pista droga y sexo dominan al mundo
+    Como un futbolista a su balón
+    Cuando ensaya su truco en el callejón
     Donde nacen los sueños que se van como agua en colador`,
     
-    `Hace falta valor, y no lo digo por rimar  
-    Porque rimar no es don, como sí lo es con corazón rimar  
-    Me tendrán que matar pa' que no escriba más pasajes  
+    `Hace falta valor, y no lo digo por rimar
+    Porque rimar no es don, como sí lo es con corazón rimar
+    Me tendrán que matar pa' que no escriba más pasajes
     Aunque habrán matado al mensajero, pero no al mensaje`,
     
-    `Un día más, un día menos en el barrio  
-    Un día más, un día menos en el mundo cruel  
-    Un día más, un día menos en el barrio  
+    `Un día más, un día menos en el barrio
+    Un día más, un día menos en el mundo cruel
+    Un día más, un día menos en el barrio
     Un día más, un día menos en el mundo cruel`,
-    
     // Mucho gusto
-    `Nací donde los mediodías son de treinta y tres grados pa' arriba  
-    Y las mujeres aquí están más buenas que la comida  
-    Donde un carro nuevo cuesta al menos el sueldo de diez años  
+    `Nací donde los mediodías son de treinta y tres grados pa' arriba
+    Y las mujeres aquí están más buenas que la comida
+    Donde un carro nuevo cuesta al menos el sueldo de diez años
     Y una casa cuesta al menos el precio de cien carros`,
     
-    `Soy de un país con miles de leyes sin aplicar  
-    Con sesenta muertos semanal, solo en la capital  
+    `Soy de un país con miles de leyes sin aplicar
+    Con sesenta muertos semanal, solo en la capital
     Por ende, muy pocas cosas me sorprenden`,
     
-    `He visto policías matando gente inocente  
+    `He visto policías matando gente inocente
     Y he visto gente no inocente siendo presidente, ¿entiendes?`,
     
-    `Parezco un loco respecto a la mayoría, salgo poco  
-    Me gusta más la oscuridad que el día  
-    Tengo mal carácter y un par de problemas psicológicos  
-    No creo en la Biblia sino en razonamientos lógicos`,
+    `Parezco un loco respecto a la mayoría, salgo poco
+    Me gusta más la oscuridad que el día
+    Tengo mal carácter y un par de problemas psicológicos
+    No creo en la Biblia, sino en razonamientos lógicos`,
     
-    `Vengo de un barrio donde a veces comía  
-    La misma pasta todos los días, con agua a veces ni fría  
-    Pero todavía hambre no he pasado, nada me lo han regalado  
+    `Vengo de un barrio donde a veces comía
+    La misma pasta todos los días, con agua a veces ni fría
+    Pero todavía hambre no he pasado, nada me lo han regalado
     Por eso soy frío como un soldado`,
     
-    `No quiero dormir, no quiero ahorrar nunca mi fuerza  
-    Ojalá se mueran todos los gobernantes que mientan  
-    Quiero abrir la puerta del zoológico a los animales  
+    `No quiero dormir, no quiero ahorrar nunca mi fuerza
+    Ojalá se mueran todos los gobernantes que mientan
+    Quiero abrir las puertas del zoológico a los animales
     Y encerrar allí a todos los oficiales criminales`,
+
+    `Quiero que inventen ya la vacuna contra el racismo
+    Y que el planeta acepte que en el fondo todos somos lo mismo
+    Quiero que las municiones se conviertan en pan
+    Y que los superhéroes salgan de la serie donde están`,
     
-    `Quiero que inventen ya la vacuna contra el racismo  
-    Y que el planeta acepte que en el fondo todos somos lo mismo`,
-    
-    `Quiero que las municiones se conviertan en pan  
-    Y que los superhéroes salgan de la serie donde están  
-    Yo quiero que la avaricia nunca le gane al honor  
-    Y que la única religión en el mundo se llame amor`,
+    `Yo quiero que la avaricia nunca le gane al honor
+    Y que la única religión en el mundo se llame amor
+    Hay muchas cosas que quisiera
+    Pero por los momentos me conformo con rapea′ hasta que me muera`,
     // Aceptas?
-    `Sigo creyendo que el opio es la religión  
-    Y la televisión que adormece mentes en mi nación  
-    No es una solución dar educación a los pobres  
+    `Sigo creyendo que el opio es la religión
+    Y la televisión que adormece mentes en mi nación
+    No es una solución dar educación a los pobres
     Si les das una pobre educación`,
     
-    `Esta es mi canción, tal vez no es la mejor del mundo  
-    Pero es la canción que cree en que podemos vivir juntos  
-    Los blancos, negros, amarillos o rojos  
+    `Esta es mi canción, tal vez no es la mejor del mundo
+    Pero es la canción que cree en que podemos vivir juntos
+    Los blancos, negros, amarillos o rojos
     Y el color de piel no importe más que el color de tus ojos`,
     
-    `Recuerdo que de niño quise un telescopio  
-    Y ver con ojos propios los planetas que nos rodean  
-    Hoy quiero un telescopio donde se vea el futuro  
+    `Recuerdo que de niño quise un telescopio
+    Y ver con ojos propios los planetas que nos rodean
+    Hoy quiero un telescopio donde se vea el futuro
     Y en este haya paz y un mundo seguro`,
     
-    `En serio, quisiera raptar varios líderes mundiales  
-    Y mostrarles la vida en nuestros barrios marginales  
-    Que sepan lo que es nacer sin ser rico de cuna  
+    `En serio, quisiera raptar varios líderes mundiales
+    Y mostrarles la vida en nuestros barrios marginales
+    Que sepan lo que es nacer sin ser rico de cuna
     Estudiar, trabajar, sudar, sin tener ayuda ninguna`,
     
-    `Rogar a Jesús pa' conseguir cualquier empleo  
+    `Rogar a Jesús pa' conseguir cualquier empleo
     Aunque este sea totalmente contrario a tus deseos`,
     
-    `Me concentro y veo que una guerra está germinando  
-    Pueblos asesinando y surgiendo otro asesino al mando  
-    El llanto reina y el mañana es rojo  
+    `Me concentro y veo que una guerra está germinando
+    Pueblos asesinando y surgiendo otro asesino al mando
+    El llanto reina y el mañana es rojo
     Y me preocupo al pensar qué verán mis hijos al abrir los ojos (¡Woa!)`,
     
     // Na Good
