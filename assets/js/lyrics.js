@@ -208,8 +208,7 @@ const frases = [
     Pueblos asesinando y surgiendo otro asesino al mando
     El llanto reina y el mañana es rojo
     Y me preocupo al pensar qué verán mis hijos al abrir los ojos (¡Woa!)`,
-    
-    // Na Good
+    // Na
     `Muchos dicen que estoy loco y tal vez un poco
     A veces pienso tengo un mecanismo inmenso dentro' el coco
     La doctora dice que me debe medicar
@@ -220,24 +219,18 @@ const frases = [
     Como cuando no quieres besar sino acaba en los senos
     Algo así más o menos, tal vez un poco más obsceno
     Cuando se trata de un lápiz y un papel y un lapicero`,
-    
     // De Mi Muerte
     `Debes amar sin miedo a ser traicionado
     Aunque sin darle prioridad al que prioridad no te ha dado, claro`,
-    
     // A dónde se fue la conciencia
     `La conciencia se fue, la moda nos gobierna
     En ellos quién roba por droga
     En ellas abrir más las piernas
     La lucha eterna, el discriminar por dinero`,
-    
-    `Que dios maldiga esta era de apariencias
-    Y que alguien me diga ¿A dónde se fue la conciencia?`,
-    
     // Epílogo
     `No habrá quien rompa el respeto que me he ganado
     Por eso detestan recordar que seré recordado
-    Como un soldado del [[hip-hop]] latinoamericano
+    Como un soldado del hip-hop latinoamericano
     Y pa' callarme tendrán que mirarme en sangre bañado`,
 
     `Bien o mal, no hacen más na' que hablar de mí
@@ -245,17 +238,16 @@ const frases = [
     
     // Uno por Ellas
     `Y es que se acostumbran a salir con trapitos de seducir
-    ¿Viste como se le notan las nalgotas en su perfil?
-    Preparada pal piropo, pose lista pa' la foto
+    ¿Viste cómo se le notan las nalgotas en su perfil?
+    Preparada pal' piropo, pose lista pa' la foto
     Olor a flor, en short o falda, a todos nos carga locos`,
 
     `Mujeres, mujeres preciosas nos invaden
     Uno por ellas aunque mal paguen, ya tú sabes
-    [[Out of my head it's glowing]]
-    [[Out of my head it's glowing]]
+    Out of my head it's glowing
+    Out of my head it's glowing
     Out of my head it's glowing
     Out of my head it's glowing`,
-    
     // Canbiate
     `No importa que corra la sangre hasta que corre nuestra sangre
     Vivimos en una sociedad de cobardes
@@ -264,12 +256,11 @@ const frases = [
     `Los tiempos cambian, nada dura para siempre
     Y pa' limar diferencias tengo que ser diferente`,
 
-    `Yo no sé si existe un dios
+    `Yo no sé si existe un Dios
     Pero de existir estoy casi seguro que no es un catire con melena
     Sino más bien esa voz que la mayoría ignoramos
     Y escuchamos al meternos en problemas`,
-    
-    // Índigo
+    // Índigo Falta mas de acá 
     `Volvió el índigo indetenible
     Ahorren sus coritos lindos porque aquí no sirven
     Mi calibre es punto [[Can]] con balas de [[Serbero]]
