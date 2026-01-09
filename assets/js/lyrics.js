@@ -260,10 +260,10 @@ const frases = [
     Pero de existir estoy casi seguro que no es un catire con melena
     Sino más bien esa voz que la mayoría ignoramos
     Y escuchamos al meternos en problemas`,
-    // Índigo Falta mas de acá 
+    // Índigo
     `Volvió el índigo indetenible
-    Ahorren sus coritos lindos porque aquí no sirven
-    Mi calibre es punto [[Can]] con balas de [[Serbero]]
+    Ahorren sus coritos lindos, porque aquí no sirven
+    Mi calibre es punto Can con balas de Serbero
     Doy disparos certeros a avisperos full de raperos`,
 
     `Aunque comprendo a los que me odian cuando hablo
@@ -272,31 +272,31 @@ const frases = [
     `Tengo un establo de verdades que galopan cual tropas
     Vientos en popa cual gotas que botan copas`,
     
-    `Si abres la boca tienes que elegir una opción
+    `Si abres la boca, tienes que elegir una opción
     Recibir mi respeto, bro, o buscar dizque competición
-    Pero si eliges la segunda situación tendrás que hacerme felación mientras pides la bendición`,
+    Pero si eliges la segunda situación, tendrás que hacerme felación mientras pides la bendición`,
 
     `La verdad se sirve cruda
     La realidad se mezcla pura
     La sinceridad se viste desnuda (ni más ni menos)
     Yo soy el índigo del papel y el tintero
-    No me llamen MC ni rapero solo [[(Canserbero)]]`,
+    No me llamen MC ni rapero, solo (Canserbero)`,
 
     `Es fácil hablar de más, decir que son perfectos
     Muchos me investigan pa' después hablar de mis defectos`,
 
-    `Como pueden ver soy un verso en carne viva
+    `Como pueden ver, soy un verso en carne viva
     Pero ya hay muchos que me envidian y los ojos me esquivan
-    Quieren escupirme pero yo estoy muy arriba
-    Y si escupes pa'rriba, en la cara te cae saliva`,
+    Quieren escupirme, pero yo estoy muy arriba
+    Y si escupes pa' arriba, en la cara te cae saliva`,
 
     `Soy la verdad, la desnuda sinceridad
     Así me disparen a matar, mi letra será recordada
-    En cambio usted me tiene que reconocer
+    En cambio, usted me tiene que reconocer
     Que te enseñé to' lo que sabes, pero no to' lo que sé`,
     
     // Clima Tropical
-    `Y  yo no sé si tú y yo vivimos en el mismo país
+    `Y yo no sé si tú y yo vivimos en el mismo país
     Pero te juro que así es en el mío
     Tragedias, racismo, clasismo
     Tierra de clima tropical, pero habitantes fríos`,
