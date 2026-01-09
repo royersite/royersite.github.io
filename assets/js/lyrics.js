@@ -405,7 +405,7 @@ const frases = [
     
     // Siempre
     `Odio, amor, cariño, ira, fuerza, sonrisas, respeto, vida
-    ¡Así soy! ¡yo!, ¡guau! ¡así soy yo!
+    ¡Así soy! ¡Yo! ¡Guau! ¡Así soy yo!
     Sueños, metas, experiencias en mi cerebro yacen vividas
     Y no quiero morir ¡todavía no!`,
         
@@ -415,40 +415,40 @@ const frases = [
     Injusticias vividas que no entiendo`,
     
     // Advertencia 
-    `Me malinforman no se conforman con las migajas
+    `Me malinforman, no se conforman con las migajas
     Y creen que hablando paja
-    Van a callar un movimiento llamado sinceridad, realidad, verdad o cómo quieran
+    Van a callar un movimiento llamado sinceridad, realidad, verdad o como quieran
     Ni disparándome podrán hacer que mi voz muera`,
         
-    `Sé que soy un problema un vidrio dentro e'sus zapatos
-    Una piña bajo sus brazos una gran mancha en su contrato`,
+    `Sé que soy un problema, un vidrio dentro de sus zapatos
+    Una piña bajo sus brazos, una gran mancha en su contrato`,
         
-    `Se reunen los fines pa'decir que son raperos
+    `Se reúnen los fines pa' decir que son raperos
     Cantando hasta pop y moviendo el hueco del trasero
-    Odio hablar de esto desperdiciar una gran pista
-    Pero, ¿cómo hago? Si me sobra letra pa' los masoquiztas`,
+    Odio hablar de esto, desperdiciar una gran pista
+    Pero, ¿cómo hago? Si me sobra letra pa' los masoquistas`,
         
     `Un exceso e' palabras que los trauma
     Que cortan desplace de hipócritas en esta fauna
     Soy verdadero guerrero con el tintero artillero
-    Pero mejor conocido por [[Canserbero]]`,
+    Pero mejor conocido por Canserbero`,
         
-    `Dicen: "si se crió en un barrio entoces, ¿por qué habla así?"
+    `Dicen: "Si se crió en un barrio entoces, ¿por qué habla así?"
     Como si en los barrios no enseñaran a leer y a escribir`,
         
     `Ya deben admitir la peor pobreza es la mental
-    Y que mi gran fortuna esta en mi forma de pensar
+    Y que mi gran fortuna está en mi forma de pensar
     Que no concuerda con la inmadurez de los chamos de ahora
     Que adoran solo la popularidad y la moda
-    Por eso es que aún ahora en pleno siglo [[XXI]]
+    Por eso es que aún ahora, en pleno siglo XXI
     Nos tildan de tercer mundo aunque solo exista uno`,
         
     `Niñas portan silicón, niños portan un cañón
-    Y a los 10 tienen sexo por que así dice la canción, wuh
+    Y a los 10 tienen sexo porque así dice la canción, wuh
     Pero su mayor preocupación no es el cese de la violencia ni la educación`,
         
     `¿Restaría corazón acaso a la verdad que he escrito?
-    ¿A esa mínima parte que han oido de mis eruditos?
+    ¿A esa mínima parte que han oído de mis eruditos?
     Orgulloso estoy de ser blanquito, a mi viejo igualito
     Pues no me identifico con tu racismo maldito`,
         
@@ -465,7 +465,7 @@ const frases = [
     Nos embarcó la calma en esta tormenta que ya no escampa`,
         
     `Quizás no tengo la razón, es mi opinión lo que comento
-    Transmitir un pensamiento amor y rencor por ejemplo
+    Transmitir un pensamiento, amor y rencor por ejemplo
     Yo', describir un sentimiento o explicar con rimas mi decepción
     Como en este momento que me siento ignorado o incomprendido
     Por esas masas que abrazan los faltos de sentido`,
@@ -473,7 +473,7 @@ const frases = [
     `Hermanos, el mundo ya se acabó
     No creas en mí, cree en ti y ve tú alrededor
     Estamos en tiempo extra
-    Aquí la vida no cuenta en venta están los corazones
+    Aquí la vida no cuenta, en venta están los corazones
     Hermanos, el mundo ya se acabó
     No creas en mí, cree en ti y ve tú alrededor
     Estamos en tiempo extra
@@ -481,8 +481,8 @@ const frases = [
         
     `Drogas, muertes, hambre, terrorismo
     Violaciones, epidemias, extorsiones
-    Tantos odiándome por lo que cantó yo
-    Mira a tú alrededor y dime si el mundo no se acabó
+    Tantos odiándome por lo que canto yo
+    Mira a tu alrededor y dime si el mundo no se acabó
     Al menos eso es lo que pienso yo`,
     
     // Jeremías 17-5 
@@ -501,9 +501,11 @@ const frases = [
     `Y si alguna te falla, cámbiala por perra`,
         
     `Yo soy la vida y la muerte, y no creo en nada
-    Ni en leyendas vivas, ni en leyendas muertas, ni resucitadas`,
+    Ni en leyendas vivas, ni en leyendas muertas, ni resucitadas
+    Yo soy como Bolívar y su espada
+    Dándole puñaladas a los hipócritas por sus fachadas`,
         
-    `Una mano te corta la otra, como dijo [[Tempo]]
+    `Una mano te corta la otra, como dijo Tempo
     Y las acciones no se las lleva el viento
     Que te perdone Cristo si existe
     Porque si por mí puedo cantar esto mientras meo en tu tumba triste`,
