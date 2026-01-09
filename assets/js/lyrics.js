@@ -235,7 +235,6 @@ const frases = [
 
     `Bien o mal, no hacen más na' que hablar de mí
     Ni mi mujer me piensa tanto así`,
-    
     // Uno por Ellas
     `Y es que se acostumbran a salir con trapitos de seducir
     ¿Viste cómo se le notan las nalgotas en su perfil?
@@ -294,7 +293,6 @@ const frases = [
     Así me disparen a matar, mi letra será recordada
     En cambio, usted me tiene que reconocer
     Que te enseñé to' lo que sabes, pero no to' lo que sé`,
-    
     // Clima Tropical
     `Y yo no sé si tú y yo vivimos en el mismo país
     Pero te juro que así es en el mío
@@ -321,14 +319,12 @@ const frases = [
     `La papa está escasa, la tasa de la violencia en alza
     ¿Belleza natural? Cierto. ¿Paraíso? Completa farsa
     Porque en el paraíso no se amenazan, se abrazan`,
-    
     // La Voz
     `Yo soy sincero, así no quiera
     Las cosas verdaderas se dicen a la ligera, aunque estas hieran`,
 
     `Yo estoy consciente que el dinero domina la esfera
     Pero nunca venderé mi esencia, ni aunque Cristo quiera`,
-    
     // Vida
     `El tiempo pasará, nuevas guerras empezarán
     La felicidad llegará y con lágrimas terminará
@@ -363,7 +359,6 @@ const frases = [
     No más ignorancia en pueblos, no más exclusión
     No más hambre, no más muerte, no más guerra
     Y más vida, más vida, más vida`,
-    
     // No Justice
     `Que injusto es escuchar mentiras siendo verdadero
     O fallecer primero por tener menos dinero
@@ -396,13 +391,11 @@ const frases = [
     Puntos insignificantes somos en la inmensidad
     Yo hablo hoy, quizá mañana no recordarás
     Pero mi pesar podría hacer resaltar una gota de mar`,
-    
     // Buenas Noches 
     `Jóvenes que por moda se meten a malandro
     Niñas tirando porque eso es lo que se está usando
     Niños que no pueden ni levantar la pistola
     Mujeres criando más de cinco niños sola`,
-    
     // Siempre
     `Odio, amor, cariño, ira, fuerza, sonrisas, respeto, vida
     ¡Así soy! ¡Yo! ¡Guau! ¡Así soy yo!
@@ -413,7 +406,6 @@ const frases = [
     Es mucho sentimiento para un humilde cuerpo
     Mucho conocimiento para tan poco tiempo
     Injusticias vividas que no entiendo`,
-    
     // Advertencia 
     `Me malinforman, no se conforman con las migajas
     Y creen que hablando paja
@@ -457,7 +449,6 @@ const frases = [
     Por eso siempre serán como la moda de corto plazo
     ¿Acaso no ven que no hay comparación mía con ustedes?
     No quería decirlo así para no herirlos pero, ¿qué quieren?`,
-    
     // El Mundo Ya Se Acabó 
     `A veces pienso que no hay almas
     Que fueron cambiadas por armas, nalgas, faldas
@@ -484,7 +475,6 @@ const frases = [
     Tantos odiándome por lo que canto yo
     Mira a tu alrededor y dime si el mundo no se acabó
     Al menos eso es lo que pienso yo`,
-    
     // Jeremías 17-5 
     `Me siento como un loco al tratar de confiar yo todavía
     En alguien en el planeta de la hipocresía
@@ -515,12 +505,10 @@ const frases = [
         
     `Deja de llorar, maldita puta
     Que yo no he botado lágrimas`,
-    
     // Seamos Honestos 
     `Desde la cuna hasta la tumba una guerra
-    en el planeta de agua llamado tierra
-    ven como hierran o sea erramos los humanos`,
-    
+    En el planeta de agua llamado Tierra
+    Ven cómo hierran, o sea, erramos los humanos`,
     // Guía Para la Acción 
     `Hay que leer, hay que aprender, hay que crecer
     Hay que atacar sin olvidarnos defender
@@ -535,13 +523,13 @@ const frases = [
     En animales la fuerza es supervivencia, pero en humanos
     La supervivencia es la inteligencia`,
         
-    `Yo  también quiero mi casa con piscina
+    `Yo también quiero mi casa con piscina
     Pero más quisiera no ver más niños en la esquina
     Bájate en cualquier barrio y camina
-    ¿Tu crees que esa vida es justa en un país lleno de riqueza divina?`,
+    ¿Tú crees que esa vida es justa en un país lleno de riqueza divina?`,
     
     // Es Épico
-    `Él me llevó donde [[Cerbero]] (ah)
+    `Él me llevó donde Cerbero
     Que dijo no morderme porque le gusta mi nombre de rapero, ja
     Si lo ves de esa forma, pude tener suerte
     Irónica es la vida, pero también irónica es la muerte`,
@@ -552,12 +540,12 @@ const frases = [
     Para gobernar al mundo con su majestuosa empresa`,
         
     `Son demasiadas dudas, pensamientos vagos
-    Gente buena en el infierno, ¿o es que en algo fueron malos? (malos)
+    Gente buena en el infierno, ¿o es que en algo fueron malos?
     Por algo están aquí, aunque no lo acepten
     Debo hallar ahora una manera de huir de la muerte`,
         
     `Recordé que en la tierra donde había nacido
-    Existía una leyenda del diablo con un tal [[Florentino]]
+    Existía una leyenda del diablo con un tal Florentino
     Obviamente, un cuento, pero inteligente
     Para irme de este infierno, infierno literalmente`,
         
