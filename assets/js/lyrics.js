@@ -367,34 +367,34 @@ const frases = [
     // No Justice
     `Que injusto es escuchar mentiras siendo verdadero
     O fallecer primero por tener menos dinero
-    Que injusto es que pueda comer cuando quiero
-    Sabiendo que hay gente muriendose de hambre en el mundo entero`,
+    Qué injusto es que pueda comer cuando quiero
+    Sabiendo que hay gente muriéndose de hambre en el mundo entero`,
 
     `Ya estoy cansado de ver gente sufriendo el presente
     Por problemas latentes, por un pasado inconsciente
     Como injusta es la muerte cuando ataca de frente
-    Y solo sufre el que queda, el que muere se ira por siempre`,
+    Y solo sufre el que queda, el que muere se irá por siempre`,
 
     `Injusto es ver que en hospitales mueran las personas
-    De enfermedades fatal o victimas de pistola
-    Es la injusticia de ver niñas perdida en las drogas
+    De enfermedades fatales o victimas de pistola
+    Es la injusticia de ver niñas perdidas en las drogas
     O en ese mismo hospital y muertas porque alguien las viola`,
 
-    `There is no justice and i wanna know where the peace is
-    Foolish people is killing while you're sitting by doing
-    Forget about the money put the gun down
-    And dont fuck this
-    Let's do something(bis)`,
+    `There is no justice, and l wanna know where the peace is
+    Foolish people are killing while you're just sitting by
+    Forget about the money, put the gun down
+    And don't fuck this up
+    Let's do something (bis)`,
     
-    `Asomando el techo por la noche ayer hable con dios
-    Le pregunte por que lo injusto y no me respondió
-    Por que usted le dio tanto a unos cuantos
+    `Asomando el techo por la noche ayer hablé con Dios 
+    Le pregunté por qué lo injusto y no me respondió
+    Por qué usted le dio tanto a unos cuantos
     Y a otros tantos les dio poco
-    Y el tipo se hizo el loco y me dejo ahí solo hablando con yo`,
+    Y el tipo se hizo el loco y me dejó ahí solo hablando con yo`,
     
-    `Pasar paginas, rapido como eso se van lapidas
+    `Pasar páginas, rápido como eso se van lápidas
     Puntos insignificantes somos en la inmensidad
-    Yo hablo hoy quizá mañana no recordaras
+    Yo hablo hoy, quizá mañana no recordarás
     Pero mi pesar podría hacer resaltar una gota de mar`,
     
     // Buenas Noches 
