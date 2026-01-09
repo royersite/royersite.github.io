@@ -314,38 +314,38 @@ const frases = [
     Nada personal (Na'), sólo que él sí tiene seguro`,
     
     `La autopista sin luz y los pueblos sin asfaltado
-    Mientras da un discurso bonito el jefe de estado
+    Mientras da un discurso bonito el jefe de Estado
     Ve cuánto ha aumentado el petróleo desde el año pasado
-    Por ca' mil barriles producidos hay un desempleado`,
+    Por cada mil barriles producidos, hay un desempleado`,
 
     `La papa está escasa, la tasa de la violencia en alza
-    ¿Belleza natural? Cierto ¿Paraíso? Completa farsa
+    ¿Belleza natural? Cierto. ¿Paraíso? Completa farsa
     Porque en el paraíso no se amenazan, se abrazan`,
     
     // La Voz
-    `Yo soy sincero así no quiera
-    Las cosas verdaderas se dicen a la ligera aunque estas hieran`,
+    `Yo soy sincero, así no quiera
+    Las cosas verdaderas se dicen a la ligera, aunque estas hieran`,
 
     `Yo estoy consciente que el dinero domina la esfera
-    Pero nunca venderé mi esencia ni aunque Cristo quiera`,
+    Pero nunca venderé mi esencia, ni aunque Cristo quiera`,
     
     // Vida
-    `El tiempo pasará, no más guerras empezarán
+    `El tiempo pasará, nuevas guerras empezarán
     La felicidad llegará y con lágrimas terminará
     La historia se reescribirá, mis canciones se olvidarán
     Otras criaturas nacerán, mejorarán y empeorarán`,
     
     `Un viejo a solas sintonizando un recuerdo
     Un deportista bajo la lluvia corriendo
-    Un hombre enfermo desahuciado sonriendo
+    Un hombre enfermo, desahuciado sonriendo
     Una pareja a la orilla del mar se besa anocheciendo
-    [[I just can't understand]]`,
+    I just can't understand`,
 
     `Un pueblo calla, una injusticia se comete
     Dos naciones batallan para probar quién es más fuerte
     Un diciembre, un enero, una religión, un credo
     Un rico, un pobre, un blanco, un negro
-    Un loco, un cuerdo, [[Canserbero]]`,
+    Un loco, un cuerdo, Canserbero`,
 
     `Idiomas, monedas, gobiernos, fronteras
     Océanos, desiertos, selvas, bosques, cordilleras
