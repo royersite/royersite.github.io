@@ -611,14 +611,13 @@ const frases = [
     Si nos juntamos y cambiamos este tema por uno que diga
     "Vivieron felices para siempre"
     Vivieron felices para siempre`,
-    
     // Maquiavélico
-    `El único detalle es que la ciencia no ha podío, no
+    `El único detalle es que la ciencia no ha podido, no
     Crear esas maquinitas del tiempo
     Por eso creo que nos resulte un poquitico bien jodío
     Volver a los días en que tu cuerpo
     Estaba convertido en río sobre el mío
-    Dejando escapar seguío esos orgasmitos lentos`,
+    Dejando escapar seguido esos orgasmitos lentos`,
         
     `Escribo solo versos tristes
     En algún patético me convertiste, releo lo que escribiste
@@ -628,7 +627,7 @@ const frases = [
     `Estoy en esos tiempos en que gota a gota
     La mente se agota, pasan los días y apenas lo notas
     La rutina es implacable, el mal humor te arropa
-    Y luces como un don Nadie con cualquier ropa`,
+    Y luces como un don nadie con cualquier ropa`,
         
     `Hoy solo quiero pensar en cosas que me hagan reír
     Sí, que me hagan ser feliz
@@ -647,7 +646,6 @@ const frases = [
     A solas donde tú viviste todo con ella
     Como una voz que te dice que a las estrellas
     Un dedo no puede ocultar, no`,
-    
     // Querer Querernos
     `Fue plenitud lo que sentí, estando dentro de ti
     Bailando por adentro de tu cuerpo
@@ -656,30 +654,29 @@ const frases = [
         
     `Sólo queda una hembra y su complemento
     Por eso es tan natural querer querernos
-    Y  ahora quién sabe cuándo, volvamos a vernos`,
+    Y ahora quién sabe cuándo, volvamos a vernos`,
         
     `Besaba yo tus pies para estar en tus huellas
     Mi lengua rozaba tus piernas y entre ellas
-    Y como una vil "leguleya"
-    Peleabas por el derecho a elegir en que posición ver las estrellas`,
+    Y como una vil leguleya
+    Peleabas por el derecho a elegir en qué posición ver las estrellas`,
         
     `Podías reír, sudar, gemir, hablar
-    Para explicarme porque parecía ibas a llorar
+    Para explicarme por qué parecía ibas a llorar
     Y yo tocándote, como quien se estira por la mañana
     Y hace ruidos de placer al hacer que nada en la cama
-    Sobran las palabras debería callarme ya`,
+    Sobran las palabras, debería callarme ya`,
         
-    `Si, a través de mis ojos tú te vieras
+    `Sí, a través de mis ojos tú te vieras
     Y en mi cuerpo sintieras lo que me inspiras
-    Te vieras con sed abrazarte quisieras
+    Te vieras con sed de abrazarte quisieras
     Ya esa es la forma como estos ojos te miran`,
         
     `Iba aterrizando en las nubes de trampolines
     Fueron tus senos los que usé como almohadines
-    Y antes que se termines esta corta canción
+    Y antes que se termine esta corta canción
     Olvidaba decirte
     Que me encantó hacerte el amor`,
-    
     // De la Vida Como Pelicula, Tragedia, Comedia y Ficcion
     `Nacer, crecer, reproducirse, morir
     Pues estar vivo no es precisamente igual a vivir
@@ -688,8 +685,8 @@ const frases = [
         
     `Vivimos entrenando para hacer dinero
     O estudiando cosas que a veces ni siquiera queremos
-    Esculpiendo nuestros cuerpos pa estar buenas y buenos
-    Pues sabemos que pa ver corazones todos son ciegos`,
+    Esculpiendo nuestros cuerpos pa' estar buenas y buenos
+    Pues sabemos que pa' ver corazones todos son ciegos`,
         
     `Admito que a veces me cansa luchar
     Y quisiera dormir para jamás despertar
@@ -717,11 +714,9 @@ const frases = [
     Pero si a ver vamos, nos vamos tal cual como nacimos`,
     
     `Trata de salvar lo que valga la pena
-    Y bota lo que ya no sirva
-    Bótalo aunque te duela
+    Y bota lo que ya no sirva, bótalo aunque te duela
     Preocúpate por ti y disfruta plenamente mientras puedas
     Porque lo único seguro es que te mueras`,
-    
     // Stupid Love Story
     `Estaban en lo cierto nuestros allegados
     Aún no he muerto de amor a pesar que así pensamos
@@ -729,7 +724,7 @@ const frases = [
     Contento hubiese asesinado
     Por recuperar tus ojos bellos`,
     
-    `Anoche mientras dormía bajo Dios
+    `Anoche mientras dormía bajó Dios
     Y me dijo que vos ya te olvidaste de mí
     Y sí, gracias a Dios que ya ni creo en Dios
     Así que olvidé su voz y me dormí para soñarte aquí`,
@@ -746,7 +741,6 @@ const frases = [
     Eso era lo que ella deseaba también (yeah)
     Eso era lo que ella deseaba también (yeah-yeah-yeah)
     Eso era lo que ella deseaba también (ajá, ajá)`,
-    
     // El Primer Trago
     `Un año más sin ti físicamente, pero en mi mente siempre
     No sabes cuánto te quiero
@@ -766,27 +760,26 @@ const frases = [
     Y una sed de ser poderoso
     Como si algo de eso cierra la herida
     Que se abre cuando, tarde o temprano, se nos va una vida querida`,
-        
     // Así Mismo
     `Hoy en día hablan mal de mí a la ligera
-    Como si me interesará
-    Como que si me conocieran
-    Como si supieran mi nombre real, no [[Canserbero]]
+    Como si me interesara
+    Como si me conocieran
+    Como si supieran mi nombre real, no Canserbero
     Yo no soy rapero, sino que sé rimar y soy sincero`,
         
-    `Trabajo nueve horas al día, una sola es pa la comida
+    `Trabajo nueve horas al día, una sola es pa' la comida
     En diez minutos como
-    50 para hacer poesía
+    Cincuenta para hacer poesía
     Por la noche leo y oigo beats de Vito y Leo
     Y el domingo voy arrecho al techo a grabar lo que creo`,
         
-    `Sigo sacando, veo medio a los que me ven mal
+    `Sigo sacando dedo medio a los que me ven mal
     Ninguno afronta que rimando verdad soy un animal
-    Qué me podrán callar
-    De muerto y de pie sepultao
+    ¿Qué me podrán callar?
+    De muerto y de pie sepultado
     Pero de mil canciones tergiversarán lo que he rimado, woah`,
         
-    `You know is Can, Can, once again con el micro
+    `You know it's Can, Can, once again con el micro
     Amarillo, azul y rojo, ocho estrellas en mi pecho escrito
     Si me maldicen no me afecta porque estoy maldito
     Por cierto, si el rap ha muerto, cállame y lo resucito`,
