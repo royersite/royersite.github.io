@@ -788,19 +788,19 @@ const frases = [
     "Nadie puede atar los pies ni siquiera del que te acompaña"`,
         
     `Confiar en quien amas no sé si es virtud o defecto
-    Más aun sabiendo que nada es eterno ni perfecto
+    Más aún sabiendo que nada es eterno ni perfecto
     (Es mentira)`,
         
     `La mente es extraña: ayuda, pero a veces daña
     La duda deambula, qué fácil es pensar que me engaña
-    Que me falla; consciencia no razona con hormonas`,
+    Que me falla; conciencia no razona con hormonas`,
         
     `Solo la ira de pensar que me habla con mentiras
     Me hace desear quitarle la dicha de respirar`,
     
     `La verdad duele, aunque peor es la sospecha
     Y desesperación que se aprovecha de tus sentidos
-    Es que; "sexos opuestos nunca podrán ser amigos"
+    Es que "sexos opuestos nunca podrán ser amigos"
     Por eso no mires a nadie cuando estés conmigo`,
         
     `Una vez alguien dijo que está en peligro de extinción
@@ -811,7 +811,7 @@ const frases = [
     `Los buenos instantes mueren lentamente en mi mente
     No obstante, los recuerdos de traiciones son permanentes`,
         
-    `Lamentablemente Dinero asesinó a Te Quiero
+    `Lamentablemente dinero asesinó a te quiero
     Y el amor no es ciego cuando el que ama está ciego de celos
     Es que no puedo creer en quien en sí no tuvo confianza
     Traicionó y pide perdón con lágrimas falsas`,
@@ -850,13 +850,12 @@ const frases = [
     `Muchos aún andaban preguntando
     Si lo mío era suerte o casualidad
     No voy a decir lo que estoy pensando
-    Porque casi to' lo que pienso se me hace realidad
+    Porque casi todo lo que pienso se me hace realidad
     Pero soy un tipo con poca paciencia
     Por eso nunca he dicho que no poseo debilidad`,
         
     `Si cortan mis manos gritaré mis líricas
     Si cortan mi lengua rapearé con mímicas`,
-    
     // Mundo de Piedra
     `Al llegar pagó por la mejor prostituta que había
     Una rubia de infarto, la mete para el cuarto
@@ -874,8 +873,7 @@ const frases = [
     `Continuando con las informaciones
     El país se hunde en la mierda
     Mientras las autoridades no hacen nada al respecto
-    Y la sociedad se pierde en una indetenible decadencia de valores`,
-        
+    Y la sociedad se pierde en una indetenible decadencia de valores`,   
     // Mañana Será otro Día
     `De rencor lloraba
     Quizás por la soledad que me acompañaba
@@ -885,8 +883,8 @@ const frases = [
     Que no ve por causa de un cáncer sin cura
     Como la piel desnuda de tu pareja en tus brazos
     Como brindar ayuda a tu hijo y ver su primer paso
-    Como ver el horizonte del mar o
-    Simplemente apreciar, el desfile de un ocaso`,
+    Como ver el horizonte del mar o simplemente apreciar
+    El desfile de un ocaso`,
         
     `Cuando sientas que la vida te ignora
     Llora pero valora mientras sonrías
@@ -895,38 +893,36 @@ const frases = [
     Mañana será otro día`,
         
     `La indecisión forma parte del ser humano
-    Luchamos por metas
-    Que al tocarla no nos conformamos
-    Decimos ¡todo esta malo!`,
-        
+    Luchamos por metas, que al tocarla no nos conformamos
+    Decimos ¡todo esta malo!`,  
     // Ni de Oro ni Goldfield
     `Entro con serenidad también con la mortalidad de un cáncer
-    Prendas, apariencias, vestimentas no hacen un [[hip-hop]]
+    Prendas, apariencias, vestimentas no hacen un hip hop
     Mis primeras rimas escupidas en esquinas
     Hoy en día son poesías esculpidas en tarimas`,
         
     `Esperanzas y enseñanzas me hacen fuerte
     A veces odio esta vida aunque le temo a la muerte`,
         
-    `Yo ejercito solo el machete y la mente por que solo los débiles quieren siempre cuerpos fuertes`,
+    `Yo ejercito solo el machete y la mente
+    Porque solo los débiles quieren siempre cuerpos fuertes`,
         
     `Vivo entre sonrisas, llantos, alegrías, despechos
     Busco sonreír cuando me siento insatisfecho
-    No creo en religiones oraciones ni supersticiones
+    No creo en religiones, oraciones ni supersticiones
     Creo en lo que veo y callo si no hallo explicaciones`,
         
-    `No creo en el destino por que yo creo mi destino
+    `No creo en el destino porque yo creo mi destino
     Consigo críticos, obstáculos en mi camino
-    Corrijo erráticos, pretéritos, de mc's mezquinos
+    Corrijo erráticos, pretéritos, de MC's mezquinos
     Prefiero ser músico clásico, antes que asesino`,
         
-    `Es [[Can]] y no místico, de flow explicito, pacifico en mi físico letal en lo lingüístico
+    `Es Can y no místico, de flow explícito, pacífico en mi físico letal en lo lingüístico
     Como Da Vinci, artístico, único en cada átomo
     Solo que yo uso un micro para hacer mis clásicos
     Sismos derriban mentes en mi metabolismo`,
         
-    `Yo amo la esencia, odio el racismo, amo el respeto, odio el egoísmo`,
-        
+    `Yo amo la esencia, odio el racismo, amo el respeto, odio el egoísmo`,  
     // Ley del Hielo
     `¡Hey!, ¿acaso es la ley del hielo?
     Si es así, prometo no pelear de nuevo y hacer mis deberes
@@ -939,10 +935,10 @@ const frases = [
     `Las hojas del árbol de mi alma, todas se han ido
     Me niego a aceptar lo que me quieren hacer ver
     Todo esto que está pasando no tiene sentido
-    No hay motivo pa aceptar lo que no puede ser`,
+    No hay motivo pa' aceptar lo que no puede ser`,
         
     `Y aunque a veces no entiendo por qué no está conmigo
-    Sigo creyendo que sus razone' ha de tener
+    Sigo creyendo que sus razones ha de tener
     No puedo negar que estoy bastante confundido
     Voy a encontrarla ahora mismo donde sea que esté`,
         
@@ -950,19 +946,17 @@ const frases = [
     Cierro los ojos y ahí estás, los abro y noto que estoy ciego
     Cuando por fin te encuentro, trato de alcanzarte y nunca puedo
     (Nunca puedo, trato de alcanzarte y nunca puedo)
-    Si no apareces pronto juro que te buscaré en el Cielo`,
-        
+    Si no apareces pronto juro que te buscaré en el cielo`,  
     // Sin Mercy
     `No comparen mi música y lírica histórica
     De gran retórica con tu contaminación sónica
     No comparen a un falso vestido de cordero
-    Con el más odiado por hablarles claro, con [[Canserbero]]`,
+    Con el más odiado por hablarles claro, con Canserbero`,
         
     `No saben si soy un poeta o hardcore
     O mejor un poeta hardcore, boleta o escritor
     A lo mejor todo eso en un licuador
-    El hecho es que dividí todo en dos, mi voz y el ecuador`,
-        
+    El hecho es que dividí todo en dos, mi voz y el ecuador`, 
     // El Purgatorio
     `No se sabe bien lo que hacemos aquí
     Se supone que pagar por algo ruin
@@ -982,11 +976,10 @@ const frases = [
     `Burócratas, psicópatas y un dictador
     Autómatas, astronautas, más de un pastor
     Vagando a los senderos de la condenación
-    De los siete pecados ninguno tiene salvación`,
-        
+    De los siete pecados ninguno tiene salvación`,    
     // Perdiendo la Fe
-    `Y yo sé que es necesario en algún dios tener la fe
-    Pa en momentos buenos a su nombre agradecer
+    `Y yo sé que es necesario en algún Dios tener la fe
+    Pa' en momentos buenos a su nombre agradecer
     Pero cuando sé de tantos inocentes que han matado
     Me pregunto si Dios estaba ocupado`,
         
@@ -1011,18 +1004,16 @@ const frases = [
     Ya que quizá esté ofendiendo a tantos inocentes muertos`,
         
     `Que me digan, ¿qué hay de justo que yo coma cuando quiera
-    Mientras en aceras nuestros indígenas su adiós esperan?
+    Mientras en aceras nuestros indígenas a Dios esperan?
     Por eso no doy gracias cuando estoy comiendo
     Ya que quizá esté ofendiendo a los que de hambre estén muriendo`,
         
-    `Entiendo que hay muchas, las cosas que aún no entiendo
-    Y que tal vez existen seres supremo y todopoderoso
+    `Entiendo que hay muchas las cosas que aún no entiendo
+    Y que tal vez existen seres supremos y todopoderosos
     Pero cuando en la calle veo lo que estoy viendo
-    Noto que esos seres no son muy buenos ni nada generosos`,
-        
+    Noto que esos seres no son muy buenos ni nada generosos`,    
     // Y la Felicidad Qué?
-    `Gritarle a tu pareja, ignorar a tu vieja
-    Cuando te aconseja
+    `Gritarle a tu pareja, ignorar a tu vieja cuando te aconseja
     ¿Y la felicidad qué?
     Trabajar sin descansar, tener sexo y no amar
     Criticar
@@ -1039,7 +1030,7 @@ const frases = [
     All we need is love, all we need is hope, yeah, (es un ratico, sí)
     Aprovéchala`,
         
-    `Trato e buscar motivos
+    `Trato de buscar motivos
     Que me respondan por qué estamos vivos
     Y después de muchas noches sin dormir he comprendido que
     All we need is love, all we need is hope, yeah
@@ -1047,11 +1038,10 @@ const frases = [
         
     `Mientras la vida se escapa sin retroceso
     Hoy no se pueden dar besos en lugares públicos
-    Donde sí se puede hacer campaña a los políticos`,
-        
+    Donde sí se puede hacer campaña a los políticos`,     
     //La Sabia Escuela
     `Ando con pie derecho en un país de izquierda
-    Donde se ahogan en la moda, lo demá' importa una mierda
+    Donde se ahogan en la moda, lo demás importa una mierda
     Cuerdas presidenciales tu cerebro lavan
     Más la vanidad que hace que la humildad se queme en lava`,
         
@@ -1061,10 +1051,9 @@ const frases = [
     `A mí no me inspiró el que se creyó violento
     Para mí, underground es el que aprendió del barrio y fue honesto
     ¿Qué soy el mejor?, les contesto que no es cierto
-    Aunque si digo no tener talento, júzguenme que miento`,
-    
+    Aunque si digo no tener talento, júzguenme que miento`, 
     // Interludio
-    `Tiene el último [[BlackBerry]] y el último [[iPhone]]
+    `Tiene el último BlackBerry y el último iPhone
     Se viste como una perrita de reality show
     Para luego preguntarse por qué solo atrae chulos
     Y nulos que solo quieren su cul...`
