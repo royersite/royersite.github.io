@@ -1,11 +1,11 @@
 {
     "instagram": {
         "username": "revolatet",
-        "active": false
+        "active": true
     },
     "x": {
         "username": "royernomas",
-        "active": true
+        "active": false
     },
     "eventos": [
         {
