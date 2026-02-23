@@ -187,7 +187,7 @@ header {
     will-change: transform, opacity;
     transform: translateY(-4rem);
     animation: animateHeader var(--hf-duracion) ease-out var(--hf-delay) 1 forwards;
-    /*-webkit-user-select: none;*/
+    -webkit-user-select: none;
     -webkit-touch-callout: none;
     user-select: none;
 }
