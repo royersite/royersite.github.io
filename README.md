@@ -1,4 +1,4 @@
-# 🌐 @RoyeR
+# 🌐 R
 
 ![Banner del sitio](assets/images/card-1200x628-violeta.png)
 
@@ -6,12 +6,10 @@ Este es solo un hobby. No tiene un propósito más allá de ser un espacio perso
 
 Solo contiene enlaces a mis redes sociales.
 
-## 🛠️ Tecnologías utilizadas
-<ul style="font-family: monospace;">
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JS</li>
-</ul>
+## 🛠️ Tecnologías utilizadas  
+`- HTML`  
+`- CSS`  
+`- JS`
 
 ## 🔗 Visita mi sitio
 📌 [https://royersite.github.io/](https://royersite.github.io/)
