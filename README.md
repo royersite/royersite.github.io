@@ -6,10 +6,12 @@ Este es solo un hobby. No tiene un propósito más allá de ser un espacio perso
 
 Solo contiene enlaces a mis redes sociales.
 
-## 🛠️ Tecnologías utilizadas  
-- HTML
-- CSS
-- JS
+## 🛠️ Tecnologías utilizadas
+<ul style="font-family: monospace;">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JS</li>
+</ul>
 
 ## 🔗 Visita mi sitio
 📌 [https://royersite.github.io/](https://royersite.github.io/)
