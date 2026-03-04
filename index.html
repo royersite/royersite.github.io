@@ -11,6 +11,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--  Título  -->
         <title translate="no">R</title>
+        <!-- Prueba -->
+        <script>
+            // Marcar el inicio de la carga lo más temprano posible
+            performance.mark('inicioCarga');
+
+            // Cuando toda la página termine de cargar
+            window.addEventListener('load', () => {
+                // Marcar el final de la carga
+                performance.mark('finCarga');
+
+                // Medir el tiempo total de carga
+                performance.measure('tiempoTotalCarga', 'inicioCarga', 'finCarga');
+
+                // Obtener la medida
+                const medida = performance.getEntriesByName('tiempoTotalCarga')[0];
+
+                // Mostrar en consola
+                console.log(`La página tardó ${medida.duration.toFixed(2)} ms en cargarse`);
+            });
+        </script>
         <!--  SEO  -->
         <link rel="canonical" href="https://royersite.github.io/">
         <meta name="description" content="Un sitio minimalista con un único enlace... que te lleva a otro enlace... que te develve aquí. ¿O no?">
