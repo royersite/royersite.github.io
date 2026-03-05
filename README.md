@@ -4,7 +4,7 @@
 
 <p align="center">
     <a href="https://royersite.github.io/">
-        <img src="https://img.shields.io/badge/demo-visitar%20sitio-blue?style=for-the-badge&logo=github" alt="Demo">
+        <img src="https://img.shields.io/badge/demo-visitar%20sitio-005AD7?style=for-the-badge&logo=github" alt="Demo">
     </a>
 </p>
 
@@ -28,5 +28,5 @@ Su propósito es simple y minimalista: compartir enlaces a mis redes sociales en
 ---
 
 <p align="center">
-    HECHO CON ♥ POR <a href="https://github.com/royersite" target="_blank" style="text-decoration: none; color: red;">R</a>
+    HECHO CON ♥ POR <a href="https://github.com/royersite" target="_blank">R</a>
 </p>
