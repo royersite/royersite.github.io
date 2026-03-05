@@ -28,5 +28,5 @@ Su propósito es simple y minimalista: compartir enlaces a mis redes sociales en
 ---
 
 <p align="center">
-    Hecho por <a href="https://github.com/royersite">R</a>
+    Hecho con ❤️ por <a href="https://github.com/royersite">R</a>
 </p>
