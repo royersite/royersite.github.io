@@ -1,6 +1,6 @@
 # R
 
-![Vista previa del sitio](assets/images/card-1200x628-violeta.png)
+![Vista previa del sitio](https://royersite.github.io/assets/images/open-graph.png)
 
 <p align="center">
     <a href="https://royersite.github.io/">
@@ -15,11 +15,11 @@ Su propósito es simple y minimalista: compartir enlaces a mis redes sociales en
 
 ## Tecnologías
 
-![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge)
+![HTML](https://img.shields.io/badge/HTML-white?style=for-the-badge&color=E34F26)
 
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge)
+![CSS](https://img.shields.io/badge/CSS-white?style=for-the-badge&color=1572B6)
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&labelColor=F7DF1E&color=F7DF1E&logoColor=black)
+![JavaScript](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&color=F7DF1E)
 
 ## Visita el sitio
 
@@ -28,5 +28,5 @@ Su propósito es simple y minimalista: compartir enlaces a mis redes sociales en
 ---
 
 <p align="center">
-    Hecho con ❤️ por <a href="https://github.com/royersite">R</a>
+    HECHO CON ♥ POR [R](https://github.com/royersite)
 </p>
