@@ -4,14 +4,13 @@
 
 <p align="center">
     <a href="https://royersite.github.io/">
-        <img src="https://img.shields.io/badge/demo-visitar%20sitio-blue?style=for-the-badge&logo=github" alt="Demo">
+        <img src="https://img.shields.io/badge/demo-visitar%20sitio-blue?style=for-the-badge&logo=github&logoColor=white" alt="Ver demo en vivo">
     </a>
 </p>
 
-## Sobre el proyecto
+## Acerca de
 
-Este es un espacio personal sin fines comerciales, creado como hobby.
-Su propósito es simple y minimalista: compartir enlaces a mis redes sociales en un solo lugar.
+Un sitio personal para reunir mis redes sociales en un solo lugar, con un enfoque simple y minimalista.
 
 ## Tecnologías
 
@@ -21,12 +20,12 @@ Su propósito es simple y minimalista: compartir enlaces a mis redes sociales en
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&color=F7DF1E)
 
-## Visita el sitio
+## Sitio web
 
 [https://royersite.github.io/](https://royersite.github.io/)
 
 ---
 
-<p align="left">
-    HECHO CON ♡ POR <a href="https://github.com/royersite" target="_blank">R</a>
+<p align="center">
+    HECHO CON ♥ POR <a href="https://github.com/royersite" target="_blank">R</a>
 </p>
