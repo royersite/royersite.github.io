@@ -27,6 +27,4 @@ Su propósito es simple y minimalista: compartir enlaces a mis redes sociales en
 
 ---
 
-<p align="center">
-    HECHO CON ♥ POR [R](https://github.com/royersite)
-</p>
+HECHO CON ♥ POR [R](https://github.com/royersite)
