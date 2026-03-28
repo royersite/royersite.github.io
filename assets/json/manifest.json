@@ -1,13 +1,16 @@
 {
-    "name": "B",
-    "short_name": "Royer largo  este es",
+    "name": "R1",
+    "short_name": "R2",
+    "display": "fullscreen",
+    "orientation": "natural",
     "start_url": "/",
-    "display": "minimal-ui",
+    "lang": "es",
+    "dir": "auto",
     "icons": [
         {
-            "src": "/assets/images/apple-touch-icon-120x120green.png",
-            "sizes": "120x120",
-            "type": "image/png"
+            "src": "/assets/images/apple-touch-icon-180x180.png",
+            "type": "image/png",
+            "sizes": "180x180"
         }
     ]
 }
