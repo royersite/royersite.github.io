@@ -1,0 +1,13 @@
+{
+    "name": "Sitio de Royer",
+    "short_name": "R",
+    "start_url": "/",
+    "display": "browser",
+    "icons": [
+        {
+            "src": "/assets/images/apple-touch-icon-180x180.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        }
+    ]
+}
