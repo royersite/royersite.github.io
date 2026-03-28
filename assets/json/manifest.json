@@ -5,8 +5,8 @@
     "display": "browser",
     "icons": [
         {
-            "src": "/assets/images/apple-touch-icon-180x180.png",
-            "sizes": "180x180",
+            "src": "/assets/images/apple-touch-icon-120x120green.png",
+            "sizes": "120x120",
             "type": "image/png"
         }
     ]
