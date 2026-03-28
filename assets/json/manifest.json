@@ -1,8 +1,8 @@
 {
     "name": "B",
-    "short_name": "Royer largo 4993 38383 58484 58484",
-    "start_url": "https://royersite.github.io",
-    "display": "browser",
+    "short_name": "Royer largo  este es",
+    "start_url": "/",
+    "display": "minimal-ui",
     "icons": [
         {
             "src": "/assets/images/apple-touch-icon-120x120green.png",
