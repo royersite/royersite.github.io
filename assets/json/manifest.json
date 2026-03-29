@@ -4,7 +4,7 @@
     "display": "browser",
     "orientation": "natural",
     "start_url": "/",
-    "background_color": "",
+    "background_color": "lime",
     "theme_color": "",
     "lang": "es",
     "dir": "auto",
