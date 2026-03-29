@@ -1,9 +1,11 @@
 {
     "name": "R1",
     "short_name": "R2",
-    "display": "fullscreen",
+    "display": "browser",
     "orientation": "natural",
     "start_url": "/",
+    "background_color": "",
+    "theme_color": "",
     "lang": "es",
     "dir": "auto",
     "icons": [
