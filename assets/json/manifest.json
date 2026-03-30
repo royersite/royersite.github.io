@@ -5,7 +5,7 @@
     "orientation": "natural",
     "start_url": "/",
     "background_color": "lime",
-    "theme_color": "",
+    "theme_color": "#00ff00",
     "lang": "es",
     "dir": "auto",
     "icons": [
